@@ -6,7 +6,7 @@ import java.util.*;
 
  给定两个字符串s1,s2,请返回bool值代表s2是否由s1旋转而成。字符串中字符为英文字母和空格，区分大小写，字符串长度小于等于1000。
 
- 我的解法是两倍是s1看是否包含s2,不过要先判断两个字符串长度是否相同。
+ 我的解法是将两个s1叠加得到上，再看s3是否包含s2,不过要先判断两个字符串长度是否相同。
  * */
 public class ReverseEqual {
     public static boolean checkReverseEqual(String s1, String s2) {
