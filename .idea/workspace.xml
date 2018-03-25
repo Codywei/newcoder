@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f671b6a7-e9bd-4688-8a0d-0bcf726622cf" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../newcoder/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../newcoder/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../newcoder/src/Different.java" afterPath="$PROJECT_DIR$/../newcoder/src/Different.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../newcoder/src/Same.java" afterPath="$PROJECT_DIR$/../newcoder/src/Same.java" />
-    </list>
+    <list default="true" id="f671b6a7-e9bd-4688-8a0d-0bcf726622cf" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/../newcoder/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -322,7 +318,7 @@
       <option name="presentableId" value="Default" />
       <updated>1521593839635</updated>
       <workItem from="1521593846502" duration="2492000" />
-      <workItem from="1521875888229" duration="6425000" />
+      <workItem from="1521875888229" duration="6450000" />
     </task>
     <task id="LOCAL-00001" summary="Different">
       <created>1521877818367</created>
@@ -352,11 +348,18 @@
       <option name="project" value="LOCAL" />
       <updated>1521940982724</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="modified">
+      <created>1521941300736</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1521941300736</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8917000" />
+    <option name="totallyTimeSpent" value="8942000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="54" y="-8" width="1874" height="1096" extended-state="6" />
@@ -401,7 +404,8 @@
     <MESSAGE value="Different" />
     <MESSAGE value="Reverse" />
     <MESSAGE value="checksam" />
-    <option name="LAST_COMMIT_MESSAGE" value="checksam" />
+    <MESSAGE value="modified" />
+    <option name="LAST_COMMIT_MESSAGE" value="modified" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
