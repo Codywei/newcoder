@@ -13,7 +13,8 @@ public class Solution {
             return null;
         }
        ListNode head2=head;
-        for (int i=1;i<k;i++){ //注意是k-1步而不是k步
+        //注意是k-1步而不是k步
+        for (int i=1;i<k;i++){
             if(head2.next==null){
                 return null;
             }

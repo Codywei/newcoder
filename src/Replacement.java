@@ -7,7 +7,7 @@ import java.util.*;
 
  给定一个string iniString 为原始的串，以及串的长度 int len, 返回替换后的string。
 
- 剑指offer有类似的题，但是用java实现有点怪怪的，第一个解法是stringbuffer实现，思路简单，第二个解法用字符数组实现，先计算需要的空间，再从后完成替换，减少字符移动的次数。
+ 剑指offer有类似的题，但是用java实现有点怪怪的，第二个解法是stringbuffer实现，思路简单，第一个解法用字符数组实现，先计算需要的空间，再从后完成替换，减少字符移动的次数。
 
  * */
 public class Replacement {
@@ -57,6 +57,6 @@ public class Replacement {
     public static  void main(String[]args){
         String iniString="werwd rewrw ytyrt";
         System.out.println(replaceSpace1(iniString,17));
-        System.out.println(replaceSpace1(iniString,17));
+        System.out.println(replaceSpace2(iniString,17));
     }
 }

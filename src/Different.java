@@ -15,7 +15,7 @@ public class Different {
         if(iniString.length()>=256){
             return false;
         }
-        boolean []check=new boolean[65536];
+        boolean []check=new boolean[256];
         int val=0;
         for(int i=0;i<iniString.length();i++){
             val=iniString.charAt(i);
