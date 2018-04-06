@@ -67,7 +67,7 @@ public class Plus {
     }
 
 
-    public ListNode plusAB2(ListNode a, ListNode b)
+    public static ListNode plusAB2(ListNode a, ListNode b)
     {
         ListNode p=new ListNode(-1);
         ListNode q=p;
@@ -96,6 +96,7 @@ public class Plus {
        a.next=e;
        e.next=d;
         ListNode newnode=plusAB1(a,b);
+//        ListNode newnode=plusAB2(a,b);
         while(newnode!=null){
             System.out.println(newnode.val);
             newnode=newnode.next;
