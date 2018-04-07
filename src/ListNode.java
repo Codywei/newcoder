@@ -1,5 +1,5 @@
 /**
- * 链表中的倒数第k个节点（节点类）
+ *节点类(用于链表题)
  * */
 public class ListNode {
     int val;

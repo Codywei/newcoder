@@ -89,8 +89,8 @@ public class Plus {
 
     public static void main(String[]args){
         ListNode a=new ListNode(9);
-        ListNode e=new ListNode(1);
-        ListNode d=new ListNode(1);
+        ListNode e=new ListNode(9);
+        ListNode d=new ListNode(9);
         ListNode b=new ListNode(1);
 
        a.next=e;
