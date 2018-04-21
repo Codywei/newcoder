@@ -6,7 +6,7 @@ import java.util.*;
 
  给定一个链表的头指针 ListNode* pHead，请返回重新排列后的链表的头指针。注意：分割以后保持原来的数据顺序不变。
 
- 这一题主体思路是要注意节点的复制，一个跟着走，一个不动
+ 这一题主体思路是要注意节点引用的复制，一个跟着走，一个不动
  * */
 public class Partition {
     public static  ListNode partition(ListNode pHead, int x) {
@@ -47,7 +47,7 @@ public class Partition {
         p1.next=p2;
         p2.next=p3;
         p3.next=p4;
-        ListNode newnode= partition(head,3);
+        ListNode newnode= partition(head,1);
         while(newnode!=null){
             System.out.println(newnode.val);
             newnode=newnode.next;

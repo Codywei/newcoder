@@ -11,7 +11,7 @@ import java.util.*;
 
  若出现不合法的操作，即没有可以符合领养要求的动物，则将这次领养操作忽略。
 
- 这个方法里多建了一个动物类来存放序号，也可以把序号再单弄两个队列操进行作
+ 这个方法里多建了一个动物类来存放序号，也可以把序号再单弄两个队列进行操作
  * */
 public class CatDogAsylum {
     public static  ArrayList<Integer> asylum(int[][] ope) {

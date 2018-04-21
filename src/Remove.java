@@ -6,7 +6,8 @@ import java.util.*;
 
  给定带删除的节点，请执行删除操作，若该节点为尾节点，返回false，否则返回true
 
- 这道题的主体思想是把后一个节点的值和next都赋给要删除的节点，然后删除后一个节点，其中第二种解法并不能改写节点中的值（注意题目给出的节点结构）[方法中传入的pNode不是对象而是引用，不能直接复制这个引用，而是要复制这个引用中的值]
+ 这道题的主体思想是把后一个节点的值和next都赋给要删除的节点，然后删除后一个节点，其中第二种解法并不能改写节点中的值
+ [方法中传入的pNode不是对象而是引用，不能直接修改这个引用，而是要修改这个引用所指向的值]
 
  * */
 public class Remove {
@@ -23,7 +24,7 @@ public class Remove {
             return false;
         }
         pNode=pNode.next;
-        System.out.println(pNode.val);
+//        System.out.println(pNode.val);
         return true;
     }
     public static void main(String[]args){
@@ -34,7 +35,7 @@ public class Remove {
         ListNode p4=new ListNode(5);
         head.next=p1;
         p1.next=p2;
-        p1.next=p3;
+        p2.next=p3;
         p3.next=p4;
 //        removeNode1(p3);
 //        while(head!=null){
@@ -47,7 +48,7 @@ public class Remove {
             System.out.println(head.val);
             head =head.next;
 
-        }
+      }
 
 
 
