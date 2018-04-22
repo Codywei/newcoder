@@ -52,7 +52,7 @@ public class Path {
         a.neighbors.add(c);
         c.neighbors.add(d);
         d.neighbors.add(a);
-//        d.neighbors.add(b);
+//      d.neighbors.add(b);
 
         System.out.println(checkPath(a,b));
     }
