@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f671b6a7-e9bd-4688-8a0d-0bcf726622cf" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../newcoder/src/AddSubstitution.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../newcoder/src/Bipartition.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../newcoder/src/Point.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../newcoder/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../newcoder/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/../newcoder/out/" />
@@ -19,16 +20,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="BinDecimal.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../newcoder/src/BinDecimal.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" column="23" lean-forward="true" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="CloseNumber.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../newcoder/src/CloseNumber.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -102,11 +93,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AddSubstitution.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AddSubstitution.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../newcoder/src/AddSubstitution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="39" lean-forward="false" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+            <state relative-caret-position="285">
+              <caret line="15" column="24" lean-forward="true" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
               <folding>
                 <element signature="e#1020#1021#0" expanded="true" />
                 <element signature="e#1068#1069#0" expanded="true" />
@@ -115,11 +106,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BinInsert.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../newcoder/src/BinInsert.java">
+      <file leaf-file-name="Point.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../newcoder/src/Point.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+            <state relative-caret-position="190">
+              <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Bipartition.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../newcoder/src/Bipartition.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="7" column="33" lean-forward="false" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -190,6 +191,9 @@
         <option value="$PROJECT_DIR$/../newcoder/src/Ants.java" />
         <option value="$PROJECT_DIR$/../newcoder/src/CrossLine.java" />
         <option value="$PROJECT_DIR$/../newcoder/src/AddSubstitution.java" />
+        <option value="$PROJECT_DIR$/../newcoder/src/Point.java" />
+        <option value="$PROJECT_DIR$/../newcoder/src/getBipartition.java" />
+        <option value="$PROJECT_DIR$/../newcoder/src/Bipartition.java" />
       </list>
     </option>
   </component>
@@ -270,7 +274,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.AddSubstitution">
+  <component name="RunManager" selected="Application.Bipartition">
     <configuration name="AddSubstitution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="AddSubstitution" />
@@ -299,9 +303,9 @@
       <module name="newcoder" />
       <envs />
     </configuration>
-    <configuration name="CrossLine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Bipartition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="CrossLine" />
+      <option name="MAIN_CLASS_NAME" value="Bipartition" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../newcoder" />
@@ -313,9 +317,9 @@
       <module name="newcoder" />
       <envs />
     </configuration>
-    <configuration name="Finder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="CrossLine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="Finder" />
+      <option name="MAIN_CLASS_NAME" value="CrossLine" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../newcoder" />
@@ -438,19 +442,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Application.differstring" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Finder" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Render" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Ants" />
-      <item index="4" class="java.lang.String" itemvalue="Application.CrossLine" />
-      <item index="5" class="java.lang.String" itemvalue="Application.AddSubstitution" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Render" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Ants" />
+      <item index="3" class="java.lang.String" itemvalue="Application.CrossLine" />
+      <item index="4" class="java.lang.String" itemvalue="Application.AddSubstitution" />
+      <item index="5" class="java.lang.String" itemvalue="Application.Bipartition" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.AddSubstitution" />
-        <item index="1" class="java.lang.String" itemvalue="Application.CrossLine" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Ants" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Render" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Finder" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Bipartition" />
+        <item index="1" class="java.lang.String" itemvalue="Application.AddSubstitution" />
+        <item index="2" class="java.lang.String" itemvalue="Application.CrossLine" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Ants" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Render" />
       </list>
     </recent_temporary>
   </component>
@@ -479,7 +483,7 @@
       <workItem from="1524291327532" duration="18904000" />
       <workItem from="1524900380805" duration="7728000" />
       <workItem from="1525414265895" duration="595000" />
-      <workItem from="1525683091219" duration="34745000" />
+      <workItem from="1525683091219" duration="36351000" />
     </task>
     <task id="LOCAL-00001" summary="Different">
       <created>1521877818367</created>
@@ -803,11 +807,18 @@
       <option name="project" value="LOCAL" />
       <updated>1525938956864</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="math">
+      <created>1525941634932</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1525941634932</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="132841000" />
+    <option name="totallyTimeSpent" value="134447000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="54" y="-8" width="1874" height="1096" extended-state="6" />
@@ -882,26 +893,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../newcoder/src/Different.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="684">
-          <caret line="47" column="55" lean-forward="false" selection-start-line="47" selection-start-column="55" selection-end-line="47" selection-end-column="55" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <element signature="e#1192#1193#0" expanded="false" />
-            <element signature="e#1251#1252#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../newcoder/src/Reverse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../newcoder/src/Replacement.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="551">
@@ -1299,12 +1290,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../newcoder/src/AddSubstitution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="39" lean-forward="false" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+        <state relative-caret-position="285">
+          <caret line="15" column="24" lean-forward="true" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
           <folding>
             <element signature="e#1020#1021#0" expanded="true" />
             <element signature="e#1068#1069#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../newcoder/src/Point.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../newcoder/src/Bipartition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="33" lean-forward="false" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+          <folding />
         </state>
       </provider>
     </entry>
