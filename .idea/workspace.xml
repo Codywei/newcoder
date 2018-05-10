@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f671b6a7-e9bd-4688-8a0d-0bcf726622cf" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../newcoder/src/Ants.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../newcoder/src/CrossLine.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../newcoder/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../newcoder/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/../newcoder/out/" />
@@ -19,18 +19,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Balance.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../newcoder/src/Balance.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="439">
-              <caret line="39" column="14" lean-forward="false" selection-start-line="32" selection-start-column="3" selection-end-line="44" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Solution3.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../newcoder/src/Solution3.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -105,15 +93,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Ants.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Ants.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../newcoder/src/Ants.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
-              <caret line="17" column="16" lean-forward="true" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+              <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
               <folding>
                 <element signature="e#367#368#0" expanded="true" />
                 <element signature="e#408#409#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CrossLine.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../newcoder/src/CrossLine.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="18" column="42" lean-forward="true" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -191,6 +189,7 @@
         <option value="$PROJECT_DIR$/../newcoder/src/Render.java" />
         <option value="$PROJECT_DIR$/../newcoder/src/antsCollision.java" />
         <option value="$PROJECT_DIR$/../newcoder/src/Ants.java" />
+        <option value="$PROJECT_DIR$/../newcoder/src/CrossLine.java" />
       </list>
     </option>
   </component>
@@ -271,10 +270,24 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Ants">
+  <component name="RunManager" selected="Application.CrossLine">
     <configuration name="Ants" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="Ants" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../newcoder" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="newcoder" />
+      <envs />
+    </configuration>
+    <configuration name="CrossLine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="CrossLine" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../newcoder" />
@@ -317,20 +330,6 @@
     <configuration name="Render" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="Render" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../newcoder" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="newcoder" />
-      <envs />
-    </configuration>
-    <configuration name="Transform2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="Transform2" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../newcoder" />
@@ -439,19 +438,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Application.differstring" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Transform2" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Exchange" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Finder" />
-      <item index="4" class="java.lang.String" itemvalue="Application.Render" />
-      <item index="5" class="java.lang.String" itemvalue="Application.Ants" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Exchange" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Finder" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Render" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Ants" />
+      <item index="5" class="java.lang.String" itemvalue="Application.CrossLine" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Ants" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Render" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Finder" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Exchange" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Transform2" />
+        <item index="0" class="java.lang.String" itemvalue="Application.CrossLine" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Ants" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Render" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Finder" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Exchange" />
       </list>
     </recent_temporary>
   </component>
@@ -480,7 +479,7 @@
       <workItem from="1524291327532" duration="18904000" />
       <workItem from="1524900380805" duration="7728000" />
       <workItem from="1525414265895" duration="595000" />
-      <workItem from="1525683091219" duration="31374000" />
+      <workItem from="1525683091219" duration="32070000" />
     </task>
     <task id="LOCAL-00001" summary="Different">
       <created>1521877818367</created>
@@ -790,14 +789,22 @@
       <option name="project" value="LOCAL" />
       <updated>1525937871055</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="math">
+      <created>1525938267914</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1525938267914</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="129470000" />
+    <option name="totallyTimeSpent" value="130166000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="54" y="-8" width="1874" height="1096" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -857,9 +864,9 @@
     <MESSAGE value="revise" />
     <MESSAGE value="path" />
     <MESSAGE value="tree" />
-    <MESSAGE value="math" />
     <MESSAGE value="num" />
-    <option name="LAST_COMMIT_MESSAGE" value="num" />
+    <MESSAGE value="math" />
+    <option name="LAST_COMMIT_MESSAGE" value="math" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -868,14 +875,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../newcoder/src/Palindrome.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="39" lean-forward="true" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../newcoder/src/Partition.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1283,11 +1282,19 @@
     <entry file="file://$PROJECT_DIR$/../newcoder/src/Ants.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
-          <caret line="17" column="16" lean-forward="true" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
           <folding>
             <element signature="e#367#368#0" expanded="true" />
             <element signature="e#408#409#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../newcoder/src/CrossLine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="42" lean-forward="true" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
+          <folding />
         </state>
       </provider>
     </entry>
