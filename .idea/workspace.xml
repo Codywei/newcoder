@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f671b6a7-e9bd-4688-8a0d-0bcf726622cf" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../newcoder/src/DenseLine.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../newcoder/src/KthNumber.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../newcoder/src/GoUpstairs.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../newcoder/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../newcoder/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/../newcoder/out/" />
@@ -20,16 +19,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Exchange.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../newcoder/src/Exchange.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="67" lean-forward="false" selection-start-line="7" selection-start-column="67" selection-end-line="7" selection-end-column="67" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Finder.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../newcoder/src/Finder.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -116,7 +105,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="KthNumber.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="KthNumber.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../newcoder/src/KthNumber.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="57">
@@ -124,6 +113,19 @@
               <folding>
                 <element signature="e#753#754#0" expanded="true" />
                 <element signature="e#799#800#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GoUpstairs.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../newcoder/src/GoUpstairs.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="7" column="55" lean-forward="false" selection-start-line="7" selection-start-column="55" selection-end-line="7" selection-end-column="55" />
+              <folding>
+                <element signature="e#715#716#0" expanded="true" />
+                <element signature="e#763#764#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -199,6 +201,7 @@
         <option value="$PROJECT_DIR$/../newcoder/src/Bipartition.java" />
         <option value="$PROJECT_DIR$/../newcoder/src/DenseLine.java" />
         <option value="$PROJECT_DIR$/../newcoder/src/KthNumber.java" />
+        <option value="$PROJECT_DIR$/../newcoder/src/GoUpstairs.java" />
       </list>
     </option>
   </component>
@@ -279,7 +282,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.KthNumber">
+  <component name="RunManager" selected="Application.GoUpstairs">
     <configuration name="AddSubstitution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="AddSubstitution" />
@@ -308,9 +311,9 @@
       <module name="newcoder" />
       <envs />
     </configuration>
-    <configuration name="CrossLine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="DenseLine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="CrossLine" />
+      <option name="MAIN_CLASS_NAME" value="DenseLine" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../newcoder" />
@@ -322,9 +325,9 @@
       <module name="newcoder" />
       <envs />
     </configuration>
-    <configuration name="DenseLine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="GoUpstairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="DenseLine" />
+      <option name="MAIN_CLASS_NAME" value="GoUpstairs" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../newcoder" />
@@ -447,19 +450,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Application.differstring" />
-      <item index="1" class="java.lang.String" itemvalue="Application.CrossLine" />
-      <item index="2" class="java.lang.String" itemvalue="Application.AddSubstitution" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Bipartition" />
-      <item index="4" class="java.lang.String" itemvalue="Application.DenseLine" />
-      <item index="5" class="java.lang.String" itemvalue="Application.KthNumber" />
+      <item index="1" class="java.lang.String" itemvalue="Application.AddSubstitution" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Bipartition" />
+      <item index="3" class="java.lang.String" itemvalue="Application.DenseLine" />
+      <item index="4" class="java.lang.String" itemvalue="Application.KthNumber" />
+      <item index="5" class="java.lang.String" itemvalue="Application.GoUpstairs" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.KthNumber" />
-        <item index="1" class="java.lang.String" itemvalue="Application.DenseLine" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Bipartition" />
-        <item index="3" class="java.lang.String" itemvalue="Application.AddSubstitution" />
-        <item index="4" class="java.lang.String" itemvalue="Application.CrossLine" />
+        <item index="0" class="java.lang.String" itemvalue="Application.GoUpstairs" />
+        <item index="1" class="java.lang.String" itemvalue="Application.KthNumber" />
+        <item index="2" class="java.lang.String" itemvalue="Application.DenseLine" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Bipartition" />
+        <item index="4" class="java.lang.String" itemvalue="Application.AddSubstitution" />
       </list>
     </recent_temporary>
   </component>
@@ -491,7 +494,7 @@
       <workItem from="1524291327532" duration="18904000" />
       <workItem from="1524900380805" duration="7728000" />
       <workItem from="1525414265895" duration="595000" />
-      <workItem from="1525683091219" duration="40993000" />
+      <workItem from="1525683091219" duration="42711000" />
     </task>
     <task id="LOCAL-00001" summary="Different">
       <created>1521877818367</created>
@@ -829,11 +832,18 @@
       <option name="project" value="LOCAL" />
       <updated>1525943247813</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="math">
+      <created>1526008195295</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1526008195295</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="139089000" />
+    <option name="totallyTimeSpent" value="140807000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="54" y="-8" width="1874" height="1096" extended-state="6" />
@@ -908,14 +918,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../newcoder/src/ReverseEqual.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="20" lean-forward="true" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../newcoder/src/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
@@ -1329,6 +1331,17 @@
           <folding>
             <element signature="e#753#754#0" expanded="true" />
             <element signature="e#799#800#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../newcoder/src/GoUpstairs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="55" lean-forward="false" selection-start-line="7" selection-start-column="55" selection-end-line="7" selection-end-column="55" />
+          <folding>
+            <element signature="e#715#716#0" expanded="true" />
+            <element signature="e#763#764#0" expanded="true" />
           </folding>
         </state>
       </provider>
