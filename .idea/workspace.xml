@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f671b6a7-e9bd-4688-8a0d-0bcf726622cf" name="Default" comment="泛洪">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../newcoder/src/Coins.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../newcoder/src/Queens.java" />
+    <list default="true" id="f671b6a7-e9bd-4688-8a0d-0bcf726622cf" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../newcoder/src/Box.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../newcoder/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../newcoder/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../newcoder/src/Flood.java" afterPath="$PROJECT_DIR$/../newcoder/src/Flood.java" />
     </list>
     <ignored path="$PROJECT_DIR$/../newcoder/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,18 +35,6 @@
             <state relative-caret-position="380">
               <caret line="20" column="42" lean-forward="false" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ListNode.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../newcoder/src/ListNode.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-              <folding>
-                <element signature="e#109#110#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -120,15 +106,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Queens.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Queens.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../newcoder/src/Queens.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="38" lean-forward="true" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
+            <state relative-caret-position="403">
+              <caret line="42" column="30" lean-forward="true" selection-start-line="42" selection-start-column="30" selection-end-line="42" selection-end-column="30" />
               <folding>
                 <element signature="e#1256#1257#0" expanded="true" />
                 <element signature="e#1293#1294#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Box.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../newcoder/src/Box.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="14" column="38" lean-forward="false" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -159,7 +155,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../newcoder/src/Clearer.java" />
         <option value="$PROJECT_DIR$/../newcoder/src/ReverseEqual.java" />
         <option value="$PROJECT_DIR$/../newcoder/src/Solution.java" />
         <option value="$PROJECT_DIR$/../newcoder/src/Replacement.java" />
@@ -210,6 +205,7 @@
         <option value="$PROJECT_DIR$/../newcoder/src/Flood.java" />
         <option value="$PROJECT_DIR$/../newcoder/src/Coins.java" />
         <option value="$PROJECT_DIR$/../newcoder/src/Queens.java" />
+        <option value="$PROJECT_DIR$/../newcoder/src/Box.java" />
       </list>
     </option>
   </component>
@@ -289,7 +285,21 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Queens">
+  <component name="RunManager" selected="Application.Box">
+    <configuration name="Box" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="Box" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../newcoder" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="newcoder" />
+      <envs />
+    </configuration>
     <configuration name="Coins" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="Coins" />
@@ -321,20 +331,6 @@
     <configuration name="Parenthesis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="Parenthesis" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../newcoder" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="newcoder" />
-      <envs />
-    </configuration>
-    <configuration name="Permutation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="Permutation" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../newcoder" />
@@ -457,19 +453,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Application.differstring" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Permutation" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Parenthesis" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Flood" />
-      <item index="4" class="java.lang.String" itemvalue="Application.Coins" />
-      <item index="5" class="java.lang.String" itemvalue="Application.Queens" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Parenthesis" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Flood" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Coins" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Queens" />
+      <item index="5" class="java.lang.String" itemvalue="Application.Box" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Queens" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Coins" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Flood" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Parenthesis" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Permutation" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Box" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Queens" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Coins" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Flood" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Parenthesis" />
       </list>
     </recent_temporary>
   </component>
@@ -504,14 +500,7 @@
       <workItem from="1525683091219" duration="45303000" />
       <workItem from="1526373736004" duration="7792000" />
       <workItem from="1526907712100" duration="3057000" />
-      <workItem from="1528266828895" duration="10652000" />
-    </task>
-    <task id="LOCAL-00012" summary="ReverseEqual">
-      <created>1521963568183</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1521963568183</updated>
+      <workItem from="1528266828895" duration="14724000" />
     </task>
     <task id="LOCAL-00013" summary="modified">
       <created>1521963644674</created>
@@ -849,11 +838,18 @@
       <option name="project" value="LOCAL" />
       <updated>1528275259257</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="递归">
+      <created>1528290651189</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1528290651189</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="164900000" />
+    <option name="totallyTimeSpent" value="168972000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1982" y="0" width="1874" height="1096" extended-state="0" />
@@ -918,10 +914,10 @@
     <MESSAGE value="math" />
     <MESSAGE value="动态规划" />
     <MESSAGE value="二进制" />
-    <MESSAGE value="递归" />
     <MESSAGE value="简单判断" />
     <MESSAGE value="泛洪" />
-    <option name="LAST_COMMIT_MESSAGE" value="泛洪" />
+    <MESSAGE value="递归" />
+    <option name="LAST_COMMIT_MESSAGE" value="递归" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -930,13 +926,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../newcoder/src/Plus.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="89" column="36" lean-forward="true" selection-start-line="89" selection-start-column="36" selection-end-line="89" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../newcoder/src/Remove.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
@@ -1228,8 +1217,8 @@
         <state relative-caret-position="399">
           <caret line="22" column="9" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="23" selection-end-column="5" />
           <folding>
-            <element signature="e#491#492#0" expanded="true" />
-            <element signature="e#541#542#0" expanded="true" />
+            <element signature="e#491#492#0" expanded="false" />
+            <element signature="e#541#542#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1239,7 +1228,7 @@
         <state relative-caret-position="171">
           <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding>
-            <element signature="e#109#110#0" expanded="true" />
+            <element signature="e#109#110#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1317,12 +1306,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../newcoder/src/Queens.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="38" lean-forward="true" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
+        <state relative-caret-position="403">
+          <caret line="42" column="30" lean-forward="true" selection-start-line="42" selection-start-column="30" selection-end-line="42" selection-end-column="30" />
           <folding>
             <element signature="e#1256#1257#0" expanded="true" />
             <element signature="e#1293#1294#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../newcoder/src/Box.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="38" lean-forward="false" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
+          <folding />
         </state>
       </provider>
     </entry>
