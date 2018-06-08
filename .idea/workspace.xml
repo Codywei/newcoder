@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f671b6a7-e9bd-4688-8a0d-0bcf726622cf" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../newcoder/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../newcoder/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../newcoder/src/SortString.java" afterPath="$PROJECT_DIR$/../newcoder/src/SortString.java" />
     </list>
     <ignored path="$PROJECT_DIR$/../newcoder/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -88,7 +87,7 @@
         <entry file="file://$PROJECT_DIR$/../newcoder/src/Finder2.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="171">
-              <caret line="9" column="40" lean-forward="false" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
+              <caret line="9" column="41" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -465,14 +464,7 @@
       <workItem from="1525683091219" duration="45303000" />
       <workItem from="1526373736004" duration="7792000" />
       <workItem from="1526907712100" duration="3057000" />
-      <workItem from="1528266828895" duration="28796000" />
-    </task>
-    <task id="LOCAL-00016" summary="修改一些错误">
-      <created>1522912706078</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1522912706078</updated>
+      <workItem from="1528266828895" duration="29239000" />
     </task>
     <task id="LOCAL-00017" summary="删除单向链表的节点">
       <created>1522915120796</created>
@@ -810,11 +802,18 @@
       <option name="project" value="LOCAL" />
       <updated>1528427229932</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="二分查找">
+      <created>1528444378465</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1528444378466</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="183044000" />
+    <option name="totallyTimeSpent" value="183487000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1982" y="0" width="1874" height="1096" extended-state="0" />
@@ -857,7 +856,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="clearer" />
     <MESSAGE value="ReverseEqual" />
     <MESSAGE value="modified" />
     <MESSAGE value="Solution" />
@@ -882,7 +880,8 @@
     <MESSAGE value="动态规划" />
     <MESSAGE value="约瑟夫问题" />
     <MESSAGE value="变位词排序" />
-    <option name="LAST_COMMIT_MESSAGE" value="变位词排序" />
+    <MESSAGE value="二分查找" />
+    <option name="LAST_COMMIT_MESSAGE" value="二分查找" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1002,6 +1001,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
           <caret line="11" column="23" lean-forward="true" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1298,7 +1298,7 @@
     <entry file="file://$PROJECT_DIR$/../newcoder/src/Finder2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
-          <caret line="9" column="40" lean-forward="false" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
+          <caret line="9" column="41" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
           <folding />
         </state>
       </provider>
