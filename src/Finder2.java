@@ -11,14 +11,12 @@
  * */
 public class Finder2 {
     public static  int findElement(int[] A, int n, int x) {
-        // write code here
-        //二分查找
-        //注意：利用题意中的 这是一个排过序的数组
+
+
         int left=0;
         int right=n-1;
         int mid=0;
         //由于移位了，但移位之后，中间元素的左右两边必定有一边是升序的
-
         while(left<=right) {
             mid=(left+right)/2;
             if(A[mid]==x){
