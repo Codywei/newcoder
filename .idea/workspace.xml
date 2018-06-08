@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f671b6a7-e9bd-4688-8a0d-0bcf726622cf" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../newcoder/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../newcoder/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../newcoder/src/Finder2.java" afterPath="$PROJECT_DIR$/../newcoder/src/Finder2.java" />
-    </list>
+    <list default="true" id="f671b6a7-e9bd-4688-8a0d-0bcf726622cf" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/../newcoder/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -465,14 +462,7 @@
       <workItem from="1525683091219" duration="45303000" />
       <workItem from="1526373736004" duration="7792000" />
       <workItem from="1526907712100" duration="3057000" />
-      <workItem from="1528266828895" duration="29823000" />
-    </task>
-    <task id="LOCAL-00019" summary="Partition">
-      <created>1522929215194</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1522929215194</updated>
+      <workItem from="1528266828895" duration="29835000" />
     </task>
     <task id="LOCAL-00020" summary="Partition">
       <created>1522931888595</created>
@@ -810,11 +800,18 @@
       <option name="project" value="LOCAL" />
       <updated>1528445131215</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="二分查找">
+      <created>1528445383694</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1528445383694</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="184071000" />
+    <option name="totallyTimeSpent" value="184083000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1982" y="0" width="1874" height="1096" extended-state="0" />
