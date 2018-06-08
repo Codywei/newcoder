@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f671b6a7-e9bd-4688-8a0d-0bcf726622cf" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../newcoder/src/SortString.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../newcoder/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../newcoder/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../newcoder/src/SortString.java" afterPath="$PROJECT_DIR$/../newcoder/src/SortString.java" />
     </list>
     <ignored path="$PROJECT_DIR$/../newcoder/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -72,15 +72,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SortString.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SortString.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../newcoder/src/SortString.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="463">
-              <caret line="34" column="9" lean-forward="false" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
+            <state relative-caret-position="305">
+              <caret line="32" column="13" lean-forward="true" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1117#1125#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Finder2.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../newcoder/src/Finder2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="9" column="40" lean-forward="false" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -111,7 +120,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../newcoder/src/Different.java" />
         <option value="$PROJECT_DIR$/../newcoder/src/Plus.java" />
         <option value="$PROJECT_DIR$/../newcoder/src/ListNode.java" />
         <option value="$PROJECT_DIR$/../newcoder/src/Palindrome.java" />
@@ -162,6 +170,7 @@
         <option value="$PROJECT_DIR$/../newcoder/src/Joseph.java" />
         <option value="$PROJECT_DIR$/../newcoder/src/Joseph2.java" />
         <option value="$PROJECT_DIR$/../newcoder/src/SortString.java" />
+        <option value="$PROJECT_DIR$/../newcoder/src/Finder2.java" />
       </list>
     </option>
   </component>
@@ -241,10 +250,24 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SortString">
+  <component name="RunManager" selected="Application.Finder2">
     <configuration name="Box" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="Box" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../newcoder" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="newcoder" />
+      <envs />
+    </configuration>
+    <configuration name="Finder2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="Finder2" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../newcoder" />
@@ -273,20 +296,6 @@
     <configuration name="Joseph2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="Joseph2" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../newcoder" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="newcoder" />
-      <envs />
-    </configuration>
-    <configuration name="Queens" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="Queens" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../newcoder" />
@@ -409,19 +418,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Application.differstring" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Queens" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Box" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Joseph" />
-      <item index="4" class="java.lang.String" itemvalue="Application.Joseph2" />
-      <item index="5" class="java.lang.String" itemvalue="Application.SortString" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Box" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Joseph" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Joseph2" />
+      <item index="4" class="java.lang.String" itemvalue="Application.SortString" />
+      <item index="5" class="java.lang.String" itemvalue="Application.Finder2" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.SortString" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Joseph2" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Joseph" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Box" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Queens" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Finder2" />
+        <item index="1" class="java.lang.String" itemvalue="Application.SortString" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Joseph2" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Joseph" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Box" />
       </list>
     </recent_temporary>
   </component>
@@ -456,14 +465,7 @@
       <workItem from="1525683091219" duration="45303000" />
       <workItem from="1526373736004" duration="7792000" />
       <workItem from="1526907712100" duration="3057000" />
-      <workItem from="1528266828895" duration="23951000" />
-    </task>
-    <task id="LOCAL-00015" summary="Solution">
-      <created>1521966644223</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1521966644223</updated>
+      <workItem from="1528266828895" duration="28796000" />
     </task>
     <task id="LOCAL-00016" summary="修改一些错误">
       <created>1522912706078</created>
@@ -801,11 +803,18 @@
       <option name="project" value="LOCAL" />
       <updated>1528423898384</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="变位词排序">
+      <created>1528427229932</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1528427229932</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="178199000" />
+    <option name="totallyTimeSpent" value="183044000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1982" y="0" width="1874" height="1096" extended-state="0" />
@@ -848,7 +857,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Transform" />
     <MESSAGE value="clearer" />
     <MESSAGE value="ReverseEqual" />
     <MESSAGE value="modified" />
@@ -873,7 +881,8 @@
     <MESSAGE value="递归" />
     <MESSAGE value="动态规划" />
     <MESSAGE value="约瑟夫问题" />
-    <option name="LAST_COMMIT_MESSAGE" value="约瑟夫问题" />
+    <MESSAGE value="变位词排序" />
+    <option name="LAST_COMMIT_MESSAGE" value="变位词排序" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -882,13 +891,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../newcoder/src/ReverseEqual.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="20" lean-forward="false" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../newcoder/src/Same.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
@@ -1228,8 +1230,8 @@
         <state relative-caret-position="403">
           <caret line="42" column="30" lean-forward="true" selection-start-line="42" selection-start-column="30" selection-end-line="42" selection-end-column="30" />
           <folding>
-            <element signature="e#1256#1257#0" expanded="true" />
-            <element signature="e#1293#1294#0" expanded="true" />
+            <element signature="e#1256#1257#0" expanded="false" />
+            <element signature="e#1293#1294#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1239,8 +1241,8 @@
         <state relative-caret-position="228">
           <caret line="12" column="34" lean-forward="true" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
           <folding>
-            <element signature="e#1104#1105#0" expanded="true" />
-            <element signature="e#1154#1155#0" expanded="true" />
+            <element signature="e#1104#1105#0" expanded="false" />
+            <element signature="e#1154#1155#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1285,12 +1287,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../newcoder/src/SortString.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="463">
-          <caret line="34" column="9" lean-forward="false" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
+        <state relative-caret-position="305">
+          <caret line="32" column="13" lean-forward="true" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1117#1125#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../newcoder/src/Finder2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="40" lean-forward="false" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
+          <folding />
         </state>
       </provider>
     </entry>

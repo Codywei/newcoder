@@ -40,9 +40,9 @@ public class SortString {
     }
 
     public static  void main(String[]args){
-        ArrayList<String> list1=new ArrayList<String>();
+
         String[] str={"ab","ba","abc","cba"};
-        list1=sortStrings(str,4);
+        ArrayList<String> list1=sortStrings(str,4);
         for(int i=0;i<list1.size();i++){
             System.out.println(list1.get(i));
         }
