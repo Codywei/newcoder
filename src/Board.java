@@ -8,7 +8,7 @@
  按井字棋胜利规则遍历一下，注意对角线
  * */
 public class Board {
-    public boolean checkWon(int[][] board) {
+    public static boolean checkWon(int[][] board) {
         for(int i=0;i<3;i++){
             if(board[i][0]==1&&board[i][1]==1&&board[i][2]==1){
                 return true ;
@@ -27,5 +27,9 @@ public class Board {
         }
         return false;
 
+    }
+    public static void main(String[]args){
+        int [][]board={{1,0,1},{1,-1,1},{1,-1,0}};
+        System.out.println(checkWon(board));
     }
 }
