@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f671b6a7-e9bd-4688-8a0d-0bcf726622cf" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../newcoder/src/Max.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../newcoder/src/Result.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../newcoder/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../newcoder/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../newcoder/src/Board.java" afterPath="$PROJECT_DIR$/../newcoder/src/Board.java" />
     </list>
     <ignored path="$PROJECT_DIR$/../newcoder/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,16 +19,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Finder4.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../newcoder/src/Finder4.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="24" column="30" lean-forward="false" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Stack2.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../newcoder/src/Stack2.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -80,11 +69,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Max.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Max.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../newcoder/src/Max.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="16" column="40" lean-forward="true" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
+            <state relative-caret-position="361">
+              <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
               <folding>
                 <element signature="e#194#195#0" expanded="true" />
                 <element signature="e#238#239#0" expanded="true" />
@@ -96,18 +85,28 @@
       <file leaf-file-name="MagicIndex.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../newcoder/src/MagicIndex.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="20" column="42" lean-forward="false" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
+            <state relative-caret-position="266">
+              <caret line="14" column="25" lean-forward="true" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Stack.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../newcoder/src/Stack.java">
+      <file leaf-file-name="MagicIndex2.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../newcoder/src/MagicIndex2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="14" />
+            <state relative-caret-position="317">
+              <caret line="24" column="22" lean-forward="false" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Result.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../newcoder/src/Result.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="475">
+              <caret line="25" column="36" lean-forward="true" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -149,7 +148,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../newcoder/src/TreeNode.java" />
         <option value="$PROJECT_DIR$/../newcoder/src/Balance.java" />
         <option value="$PROJECT_DIR$/../newcoder/src/UndirectedGraphNode.java" />
         <option value="$PROJECT_DIR$/../newcoder/src/Path.java" />
@@ -200,6 +198,7 @@
         <option value="$PROJECT_DIR$/../newcoder/src/Exchange2.java" />
         <option value="$PROJECT_DIR$/../newcoder/src/Board.java" />
         <option value="$PROJECT_DIR$/../newcoder/src/Max.java" />
+        <option value="$PROJECT_DIR$/../newcoder/src/Result.java" />
       </list>
     </option>
   </component>
@@ -218,9 +217,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1974" />
+    <option name="x" value="55" />
     <option name="y" value="-8" />
-    <option name="width" value="1874" />
+    <option name="width" value="1873" />
     <option name="height" value="1096" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -280,21 +279,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Max">
-    <configuration name="AntiOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="AntiOrder" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../newcoder" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="newcoder" />
-      <envs />
-    </configuration>
+  <component name="RunManager" selected="Application.Result">
     <configuration name="Board" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="Board" />
@@ -323,6 +308,20 @@
       <module name="newcoder" />
       <envs />
     </configuration>
+    <configuration name="MagicIndex" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="MagicIndex" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../newcoder" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="newcoder" />
+      <envs />
+    </configuration>
     <configuration name="Max" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="Max" />
@@ -337,9 +336,9 @@
       <module name="newcoder" />
       <envs />
     </configuration>
-    <configuration name="Rank" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Result" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="Rank" />
+      <option name="MAIN_CLASS_NAME" value="Result" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../newcoder" />
@@ -448,19 +447,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Application.differstring" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Rank" />
-      <item index="2" class="java.lang.String" itemvalue="Application.AntiOrder" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Exchange2" />
-      <item index="4" class="java.lang.String" itemvalue="Application.Board" />
-      <item index="5" class="java.lang.String" itemvalue="Application.Max" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Exchange2" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Board" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Max" />
+      <item index="4" class="java.lang.String" itemvalue="Application.MagicIndex" />
+      <item index="5" class="java.lang.String" itemvalue="Application.Result" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Max" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Board" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Exchange2" />
-        <item index="3" class="java.lang.String" itemvalue="Application.AntiOrder" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Rank" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Result" />
+        <item index="1" class="java.lang.String" itemvalue="Application.MagicIndex" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Max" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Board" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Exchange2" />
       </list>
     </recent_temporary>
   </component>
@@ -496,14 +495,7 @@
       <workItem from="1526373736004" duration="7792000" />
       <workItem from="1526907712100" duration="3057000" />
       <workItem from="1528266828895" duration="43939000" />
-      <workItem from="1528545392401" duration="5306000" />
-    </task>
-    <task id="LOCAL-00029" summary="revise">
-      <created>1524298321289</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1524298321289</updated>
+      <workItem from="1528545392401" duration="7837000" />
     </task>
     <task id="LOCAL-00030" summary="revise">
       <created>1524308822424</created>
@@ -841,14 +833,21 @@
       <option name="project" value="LOCAL" />
       <updated>1528597933823</updated>
     </task>
-    <option name="localTasksCounter" value="78" />
+    <task id="LOCAL-00078" summary="无判断max">
+      <created>1528598867870</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1528598867870</updated>
+    </task>
+    <option name="localTasksCounter" value="79" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="203493000" />
+    <option name="totallyTimeSpent" value="206024000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1974" y="-8" width="1874" height="1096" extended-state="6" />
+    <frame x="55" y="-8" width="1873" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -864,7 +863,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15986769" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15995587" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -888,7 +887,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="修改一些错误" />
     <MESSAGE value="删除单向链表的节点" />
     <MESSAGE value="Partition" />
     <MESSAGE value="plusAB1" />
@@ -913,7 +911,8 @@
     <MESSAGE value="双重遍历" />
     <MESSAGE value="无缓存交换" />
     <MESSAGE value="井字棋" />
-    <option name="LAST_COMMIT_MESSAGE" value="井字棋" />
+    <MESSAGE value="无判断max" />
+    <option name="LAST_COMMIT_MESSAGE" value="无判断max" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -922,18 +921,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../newcoder/src/Different.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="16" column="9" lean-forward="false" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <element signature="e#1192#1193#0" expanded="false" />
-            <element signature="e#1251#1252#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../newcoder/src/Path.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="969">
@@ -1146,14 +1133,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../newcoder/src/MagicIndex2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="24" column="22" lean-forward="false" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../newcoder/src/Subet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -1227,7 +1206,7 @@
         <state relative-caret-position="266">
           <caret line="15" column="51" lean-forward="false" selection-start-line="15" selection-start-column="51" selection-end-line="15" selection-end-column="51" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1237,8 +1216,8 @@
         <state relative-caret-position="190">
           <caret line="10" column="59" lean-forward="false" selection-start-line="10" selection-start-column="59" selection-end-line="10" selection-end-column="59" />
           <folding>
-            <element signature="e#1268#1269#0" expanded="true" />
-            <element signature="e#1316#1317#0" expanded="true" />
+            <element signature="e#1268#1269#0" expanded="false" />
+            <element signature="e#1316#1317#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1248,7 +1227,7 @@
         <state relative-caret-position="551">
           <caret line="32" column="13" lean-forward="false" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1325,6 +1304,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../newcoder/src/Max.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding>
+            <element signature="e#194#195#0" expanded="true" />
+            <element signature="e#238#239#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../newcoder/src/Board.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="608">
@@ -1335,20 +1325,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../newcoder/src/MagicIndex.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" column="42" lean-forward="false" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
+        <state relative-caret-position="266">
+          <caret line="14" column="25" lean-forward="true" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../newcoder/src/Max.java">
+    <entry file="file://$PROJECT_DIR$/../newcoder/src/MagicIndex2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="40" lean-forward="true" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
-          <folding>
-            <element signature="e#194#195#0" expanded="true" />
-            <element signature="e#238#239#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="317">
+          <caret line="24" column="22" lean-forward="false" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../newcoder/src/Result.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="25" column="36" lean-forward="true" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
+          <folding />
         </state>
       </provider>
     </entry>
