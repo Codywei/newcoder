@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f671b6a7-e9bd-4688-8a0d-0bcf726622cf" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../newcoder/src/ToString.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../newcoder/src/Frequency.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../newcoder/src/MaxSum.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../newcoder/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../newcoder/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/../newcoder/out/" />
@@ -44,26 +45,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="133">
               <caret line="7" column="5" lean-forward="false" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Board.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../newcoder/src/Board.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="608">
-              <caret line="32" column="44" lean-forward="false" selection-start-line="32" selection-start-column="44" selection-end-line="32" selection-end-column="44" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MagicIndex.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../newcoder/src/MagicIndex.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" column="25" lean-forward="true" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -112,11 +93,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ToString.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ToString.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../newcoder/src/ToString.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="152">
               <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MaxSum.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../newcoder/src/MaxSum.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="7" column="39" lean-forward="false" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Frequency.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../newcoder/src/Frequency.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="399">
+              <caret line="21" column="9" lean-forward="true" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -148,8 +149,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../newcoder/src/MinimalBST.java" />
-        <option value="$PROJECT_DIR$/../newcoder/src/TreeLevel.java" />
         <option value="$PROJECT_DIR$/../newcoder/src/Checker.java" />
         <option value="$PROJECT_DIR$/../newcoder/src/Successor.java" />
         <option value="$PROJECT_DIR$/../newcoder/src/LCA.java" />
@@ -199,6 +198,8 @@
         <option value="$PROJECT_DIR$/../newcoder/src/Factor.java" />
         <option value="$PROJECT_DIR$/../newcoder/src/Rearrange.java" />
         <option value="$PROJECT_DIR$/../newcoder/src/ToString.java" />
+        <option value="$PROJECT_DIR$/../newcoder/src/MaxSum.java" />
+        <option value="$PROJECT_DIR$/../newcoder/src/Frequency.java" />
       </list>
     </option>
   </component>
@@ -279,7 +280,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ToString">
+  <component name="RunManager" selected="Application.Frequency">
     <configuration name="Factor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="Factor" />
@@ -294,9 +295,9 @@
       <module name="newcoder" />
       <envs />
     </configuration>
-    <configuration name="MagicIndex" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Frequency" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="MagicIndex" />
+      <option name="MAIN_CLASS_NAME" value="Frequency" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../newcoder" />
@@ -308,9 +309,9 @@
       <module name="newcoder" />
       <envs />
     </configuration>
-    <configuration name="Max" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="MaxSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="Max" />
+      <option name="MAIN_CLASS_NAME" value="MaxSum" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../newcoder" />
@@ -447,19 +448,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Application.differstring" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Max" />
-      <item index="2" class="java.lang.String" itemvalue="Application.MagicIndex" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Result" />
-      <item index="4" class="java.lang.String" itemvalue="Application.Factor" />
-      <item index="5" class="java.lang.String" itemvalue="Application.ToString" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Result" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Factor" />
+      <item index="3" class="java.lang.String" itemvalue="Application.ToString" />
+      <item index="4" class="java.lang.String" itemvalue="Application.MaxSum" />
+      <item index="5" class="java.lang.String" itemvalue="Application.Frequency" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.ToString" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Factor" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Result" />
-        <item index="3" class="java.lang.String" itemvalue="Application.MagicIndex" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Max" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Frequency" />
+        <item index="1" class="java.lang.String" itemvalue="Application.MaxSum" />
+        <item index="2" class="java.lang.String" itemvalue="Application.ToString" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Factor" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Result" />
       </list>
     </recent_temporary>
   </component>
@@ -495,14 +496,7 @@
       <workItem from="1526373736004" duration="7792000" />
       <workItem from="1526907712100" duration="3057000" />
       <workItem from="1528266828895" duration="43939000" />
-      <workItem from="1528545392401" duration="13347000" />
-    </task>
-    <task id="LOCAL-00034" summary="tree">
-      <created>1524917172173</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1524917172173</updated>
+      <workItem from="1528545392401" duration="16178000" />
     </task>
     <task id="LOCAL-00035" summary="tree">
       <created>1524917185250</created>
@@ -840,11 +834,18 @@
       <option name="project" value="LOCAL" />
       <updated>1528631470848</updated>
     </task>
-    <option name="localTasksCounter" value="83" />
+    <task id="LOCAL-00083" summary="数字发音">
+      <created>1528698647357</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1528698647357</updated>
+    </task>
+    <option name="localTasksCounter" value="84" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="211534000" />
+    <option name="totallyTimeSpent" value="214365000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1974" y="-8" width="1874" height="1096" extended-state="6" />
@@ -887,7 +888,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="isPalindrome" />
     <MESSAGE value="SetOfStacks" />
     <MESSAGE value="Solution2" />
     <MESSAGE value="TwoStacks" />
@@ -912,31 +912,16 @@
     <MESSAGE value="珠玑妙算" />
     <MESSAGE value="阶乘尾零" />
     <MESSAGE value="最小调整有序" />
-    <option name="LAST_COMMIT_MESSAGE" value="最小调整有序" />
+    <MESSAGE value="数字发音" />
+    <option name="LAST_COMMIT_MESSAGE" value="数字发音" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="71" />
+      <option name="time" value="74" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../newcoder/src/CatDogAsylum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="979">
-          <caret line="53" column="24" lean-forward="false" selection-start-line="53" selection-start-column="24" selection-end-line="53" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../newcoder/src/Checker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="23" lean-forward="true" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../newcoder/src/Successor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -1349,6 +1334,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
           <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../newcoder/src/MaxSum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="39" lean-forward="false" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../newcoder/src/Frequency.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="9" lean-forward="true" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
           <folding />
         </state>
       </provider>
