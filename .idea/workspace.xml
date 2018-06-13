@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f671b6a7-e9bd-4688-8a0d-0bcf726622cf" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../newcoder/src/Change.java" />
+    <list default="true" id="f671b6a7-e9bd-4688-8a0d-0bcf726622cf" name="Default" comment="最大">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../newcoder/src/SubMatrix.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../newcoder/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../newcoder/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/../newcoder/out/" />
@@ -19,16 +19,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Count2.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../newcoder/src/Count2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="21" column="43" lean-forward="true" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="NextElement.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../newcoder/src/NextElement.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -92,14 +82,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Change.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Change.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../newcoder/src/Change.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="20" lean-forward="false" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+            <state relative-caret-position="513">
+              <caret line="27" column="26" lean-forward="true" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
               <folding>
                 <element signature="e#573#589#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SubMatrix.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../newcoder/src/SubMatrix.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="10" column="56" lean-forward="true" selection-start-line="10" selection-start-column="56" selection-end-line="10" selection-end-column="56" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -150,7 +150,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../newcoder/src/antsCollision.java" />
         <option value="$PROJECT_DIR$/../newcoder/src/Ants.java" />
         <option value="$PROJECT_DIR$/../newcoder/src/CrossLine.java" />
         <option value="$PROJECT_DIR$/../newcoder/src/AddSubstitution.java" />
@@ -201,6 +200,7 @@
         <option value="$PROJECT_DIR$/../newcoder/src/Substr.java" />
         <option value="$PROJECT_DIR$/../newcoder/src/Middle.java" />
         <option value="$PROJECT_DIR$/../newcoder/src/Change.java" />
+        <option value="$PROJECT_DIR$/../newcoder/src/SubMatrix.java" />
       </list>
     </option>
   </component>
@@ -281,7 +281,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Middle">
+  <component name="RunManager" selected="Application.SubMatrix">
     <configuration name="Distance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="Distance" />
@@ -324,9 +324,9 @@
       <module name="newcoder" />
       <envs />
     </configuration>
-    <configuration name="NextElement2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="SubMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="NextElement2" />
+      <option name="MAIN_CLASS_NAME" value="SubMatrix" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../newcoder" />
@@ -449,19 +449,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Application.differstring" />
-      <item index="1" class="java.lang.String" itemvalue="Application.NextElement2" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Distance" />
-      <item index="3" class="java.lang.String" itemvalue="Application.LongestString" />
-      <item index="4" class="java.lang.String" itemvalue="Application.Substr" />
-      <item index="5" class="java.lang.String" itemvalue="Application.Middle" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Distance" />
+      <item index="2" class="java.lang.String" itemvalue="Application.LongestString" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Substr" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Middle" />
+      <item index="5" class="java.lang.String" itemvalue="Application.SubMatrix" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Middle" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Substr" />
-        <item index="2" class="java.lang.String" itemvalue="Application.LongestString" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Distance" />
-        <item index="4" class="java.lang.String" itemvalue="Application.NextElement2" />
+        <item index="0" class="java.lang.String" itemvalue="Application.SubMatrix" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Middle" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Substr" />
+        <item index="3" class="java.lang.String" itemvalue="Application.LongestString" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Distance" />
       </list>
     </recent_temporary>
   </component>
@@ -497,14 +497,7 @@
       <workItem from="1526373736004" duration="7792000" />
       <workItem from="1526907712100" duration="3057000" />
       <workItem from="1528266828895" duration="43939000" />
-      <workItem from="1528545392401" duration="34448000" />
-    </task>
-    <task id="LOCAL-00044" summary="num">
-      <created>1525937871055</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1525937871055</updated>
+      <workItem from="1528545392401" duration="36252000" />
     </task>
     <task id="LOCAL-00045" summary="math">
       <created>1525938267914</created>
@@ -842,11 +835,18 @@
       <option name="project" value="LOCAL" />
       <updated>1528878868926</updated>
     </task>
-    <option name="localTasksCounter" value="93" />
+    <task id="LOCAL-00093" summary="字符串变换">
+      <created>1528894233043</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1528894233043</updated>
+    </task>
+    <option name="localTasksCounter" value="94" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="232635000" />
+    <option name="totallyTimeSpent" value="234439000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1974" y="-8" width="1874" height="1096" extended-state="6" />
@@ -889,7 +889,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="math" />
     <MESSAGE value="二进制" />
     <MESSAGE value="简单判断" />
     <MESSAGE value="泛洪" />
@@ -914,26 +913,16 @@
     <MESSAGE value="最大合成子串" />
     <MESSAGE value="子串判断" />
     <MESSAGE value="实时中位数" />
-    <option name="LAST_COMMIT_MESSAGE" value="实时中位数" />
+    <MESSAGE value="字符串变换" />
+    <option name="LAST_COMMIT_MESSAGE" value="字符串变换" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="77" />
+      <option name="time" value="79" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../newcoder/src/KthNumber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="35" lean-forward="false" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
-          <folding>
-            <element signature="e#753#754#0" expanded="false" />
-            <element signature="e#799#800#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../newcoder/src/Bipartition.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="589">
@@ -1358,11 +1347,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../newcoder/src/Change.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="20" lean-forward="false" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+        <state relative-caret-position="513">
+          <caret line="27" column="26" lean-forward="true" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
           <folding>
             <element signature="e#573#589#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../newcoder/src/SubMatrix.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="56" lean-forward="true" selection-start-line="10" selection-start-column="56" selection-end-line="10" selection-end-column="56" />
+          <folding />
         </state>
       </provider>
     </entry>
