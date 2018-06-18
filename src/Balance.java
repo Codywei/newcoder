@@ -1,13 +1,13 @@
 import static java.lang.Math.abs;
 import static java.lang.Math.max;
 /**
- 二叉树平衡检查
+ 二叉树平衡检查（树）
 
  实现一个函数，检查二叉树是否平衡，平衡的定义如下，对于树中的任意一个结点，其两颗子树的高度差不超过1。
 
  给定指向树根结点的指针TreeNode* root，请返回一个bool，代表这棵树是否平衡。
 
- 以递归的方式求各个节点的深度，在以递归的方式求左右节点是否平衡
+ 以递归的方式求各个节点的深度，再以递归的方式求左右节点是否平衡
  * */
 public class Balance {
     public static boolean isBalance(TreeNode root) {
