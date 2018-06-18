@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f671b6a7-e9bd-4688-8a0d-0bcf726622cf" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../newcoder/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../newcoder/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../newcoder/src/Partition.java" afterPath="$PROJECT_DIR$/../newcoder/src/Partition.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../newcoder/src/Plus.java" afterPath="$PROJECT_DIR$/../newcoder/src/Plus.java" />
     </list>
     <ignored path="$PROJECT_DIR$/../newcoder/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -102,7 +102,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Partition.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Partition.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../newcoder/src/Partition.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="19">
@@ -112,12 +112,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Same.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../newcoder/src/Same.java">
+      <file leaf-file-name="Plus.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../newcoder/src/Plus.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" column="4" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="17" />
-              <folding />
+            <state relative-caret-position="19">
+              <caret line="1" column="14" lean-forward="false" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+              <folding>
+                <element signature="method#plusAB1#0;class#Plus#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -148,6 +150,7 @@
       <find>链表中倒数</find>
       <find>节点的</find>
       <find>链表分割</find>
+      <find>链式</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -161,7 +164,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../newcoder/src/Permutation.java" />
         <option value="$PROJECT_DIR$/../newcoder/src/Parenthesis.java" />
         <option value="$PROJECT_DIR$/../newcoder/src/Flood.java" />
         <option value="$PROJECT_DIR$/../newcoder/src/Coins.java" />
@@ -212,6 +214,7 @@
         <option value="$PROJECT_DIR$/../newcoder/src/Solution.java" />
         <option value="$PROJECT_DIR$/../newcoder/src/Remove.java" />
         <option value="$PROJECT_DIR$/../newcoder/src/Partition.java" />
+        <option value="$PROJECT_DIR$/../newcoder/src/Plus.java" />
       </list>
     </option>
   </component>
@@ -508,14 +511,7 @@
       <workItem from="1526373736004" duration="7792000" />
       <workItem from="1526907712100" duration="3057000" />
       <workItem from="1528266828895" duration="43939000" />
-      <workItem from="1528545392401" duration="49318000" />
-    </task>
-    <task id="LOCAL-00061" summary="递归">
-      <created>1528290651189</created>
-      <option name="number" value="00061" />
-      <option name="presentableId" value="LOCAL-00061" />
-      <option name="project" value="LOCAL" />
-      <updated>1528290651189</updated>
+      <workItem from="1528545392401" duration="49814000" />
     </task>
     <task id="LOCAL-00062" summary="动态规划">
       <created>1528367690921</created>
@@ -853,11 +849,18 @@
       <option name="project" value="LOCAL" />
       <updated>1529303843469</updated>
     </task>
-    <option name="localTasksCounter" value="110" />
+    <task id="LOCAL-00110" summary=" 链表分割（编程基础、链表）">
+      <created>1529304340778</created>
+      <option name="number" value="00110" />
+      <option name="presentableId" value="LOCAL-00110" />
+      <option name="project" value="LOCAL" />
+      <updated>1529304340778</updated>
+    </task>
+    <option name="localTasksCounter" value="111" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="247505000" />
+    <option name="totallyTimeSpent" value="248001000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1974" y="-8" width="1874" height="1096" extended-state="6" />
@@ -900,7 +903,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="数字发音" />
     <MESSAGE value="词频统计" />
     <MESSAGE value="整数对查找" />
     <MESSAGE value="树转链表" />
@@ -925,7 +927,8 @@
     <MESSAGE value="单链表节点类" />
     <MESSAGE value=" 链表中的倒数第k个节点（链表）" />
     <MESSAGE value="访问单个节点的删除（编程基础、链表）" />
-    <option name="LAST_COMMIT_MESSAGE" value="访问单个节点的删除（编程基础、链表）" />
+    <MESSAGE value=" 链表分割（编程基础、链表）" />
+    <option name="LAST_COMMIT_MESSAGE" value=" 链表分割（编程基础、链表）" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -934,16 +937,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../newcoder/src/Permutation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="15" column="51" lean-forward="false" selection-start-line="15" selection-start-column="51" selection-end-line="15" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../newcoder/src/Joseph2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
@@ -1469,6 +1462,16 @@
         <state relative-caret-position="19">
           <caret line="1" column="11" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="14" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../newcoder/src/Plus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="14" lean-forward="false" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+          <folding>
+            <element signature="method#plusAB1#0;class#Plus#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
