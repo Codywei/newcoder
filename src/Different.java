@@ -1,5 +1,5 @@
 /**
- 字符串互异
+ 确定字符互异（编程基础，字符串）
 
  请实现一个算法，确定一个字符串的所有字符是否全都不同。这里我们要求不允许使用额外的存储结构。
 
@@ -8,7 +8,7 @@
 
  这里实现了三种方法。第一种用字符的ASCII码代表数组的位置（有点违规），第二种两层循环，第三种使用了正则表达式。
  * */
-import java.util.*;
+
 public class Different {
     public static boolean checkDifferent1(String iniString) {
 
