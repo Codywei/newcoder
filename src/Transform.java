@@ -1,6 +1,6 @@
 import java.util.*;
 /**
- 像素翻转
+ 像素翻转（编程基础，数组）
 
  有一副由NxN矩阵表示的图像，这里每个像素用一个int表示，请编写一个算法，在不占用额外内存空间的情况下(即不使用缓存矩阵)，将图像顺时针旋转90度。
 
@@ -32,8 +32,7 @@ public class Transform {
 
     public static void main(String[] args) {
         int[][] mat = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
-        int[][] mat2 = new int[3][3];
-        mat2 = transformImage(mat, 3);
+        int[][] mat2 = transformImage(mat, 3);
         for (int i = 0; i < 3; i++) {
             for (int j = 0; j < 3; j++) {
                 System.out.print(mat2[i][j]+" ");
