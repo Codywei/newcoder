@@ -1,6 +1,6 @@
 import java.util.*;
 /**
- 集合栈
+ 集合栈（栈）
 
  请实现一种数据结构SetOfStacks，由多个栈组成，其中每个栈的大小为size，当前一个栈填满时，新建一个栈。该数据结构应支持与普通栈相同的push和pop操作。
 
@@ -13,7 +13,6 @@ import java.util.*;
 
 public class SetOfStacks {
     public static ArrayList<ArrayList<Integer>> setOfStacks(int[][] ope, int size) {
-        // write code here
         ArrayList<ArrayList<Integer>> list=new ArrayList<ArrayList<Integer>>();
         ArrayList<Integer> cur=new ArrayList<Integer>(size);
         list.add(cur);
@@ -59,7 +58,7 @@ public class SetOfStacks {
        return list;
     }
     public static void main(String[]args){
-        int ope[][]={{2,100},{1,3},{1,4},{1,5},{1,6},{2,100}};
+        int ope[][]={{1,100},{1,3},{1,4},{1,5},{1,6},{2,100}};
         int size=5;
         ArrayList<ArrayList<Integer>> list=setOfStacks(ope,size);
         ArrayList<Integer> now=new ArrayList<Integer>(size);
