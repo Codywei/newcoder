@@ -1,6 +1,5 @@
-import java.util.*;
 /**
- 链表分割
+ 链表分割（编程基础、链表）
 
  编写代码，以给定值x为基准将链表分割成两部分，所有小于x的结点排在大于或等于x的结点之前
 
@@ -10,7 +9,6 @@ import java.util.*;
  * */
 public class Partition {
     public static  ListNode partition(ListNode pHead, int x) {
-        ListNode cur=pHead;
         ListNode small1 =new ListNode(-1);
         ListNode big1 =new ListNode(-1);
         ListNode small2 =small1;
@@ -21,7 +19,9 @@ public class Partition {
         while (pHead != null) {
 
             if (pHead.val < x) {
+                //先创建next节点并赋值
                 small1.next =new ListNode(pHead.val);
+                //再移动到下一个节点
                 small1=small1.next;
 
             } else {
@@ -47,7 +47,7 @@ public class Partition {
         p1.next=p2;
         p2.next=p3;
         p3.next=p4;
-        ListNode newnode= partition(head,1);
+        ListNode newnode= partition(head,3);
         while(newnode!=null){
             System.out.println(newnode.val);
             newnode=newnode.next;
