@@ -1,13 +1,13 @@
 import java.util.*;
 
 /**
- 确定两个字符串乱序同构
+ 确定两个字符串乱序同构（字符串）
 
  给定两个字符串，请编写程序，确定其中一个字符串的字符重新排列后，能否变成另一个字符串。这里规定大小写为不同字符，且考虑字符串重点空格。
 
  给定一个string stringA和一个string stringB，请返回一个bool，代表两串是否重新排列后可相同。保证两串的长度都小于等于5000。
 
- 这里有两个不同的方法实现，第一个实现先排序再比较，第二个是记录ascii码，再比较
+ 这里有两个不同的方法实现，第一个实现先排序再比较，第二个是创建256维数组，用于记录字符对应ascii码的个数，再比较是否相同
  * */
 public class Same {
     public static boolean checkSam1(String stringA, String stringB) {
