@@ -1,4 +1,13 @@
 import java.util.HashMap;
+/**
+ 穿点最多的直线（数学基础）
+
+ 在二维平面上，有一些点，请找出经过点数最多的那条线。
+
+ 给定一个点集vector<point>p和点集的大小n,没有两个点的横坐标相等的情况,请返回一个vector<double>，代表经过点数最多的那条直线的斜率和截距。</double></point>
+
+ 遍历出所有直线（按点和斜率）,取值最大的
+ * */
 
 public class DenseLine {
     public static double[] getLine(Point[] p, int n) {
