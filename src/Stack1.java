@@ -9,7 +9,7 @@
 
  动态规划（最长递增子序列）
  * */
-public class Stack {
+public class Stack1 {
     public static  int getHeight(int[] men, int n) {
         // 到 i位置时候的最长递增子序列的长度
         int []dp=new int[n];

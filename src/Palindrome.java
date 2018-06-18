@@ -1,6 +1,7 @@
 import java.util.*;
+
 /**
- 回文链表
+ 回文链表(编程基础、链表)
 
  请编写一个函数，检查链表是否为回文。
 
@@ -26,12 +27,10 @@ public class Palindrome {
     public static boolean isPalindrome2(ListNode pHead) {
         ListNode fast = pHead;
         ListNode slow = pHead;
-        Stack<Integer> stack = new Stack<>();
+        Stack<Integer>stack = new Stack();
 /**
-* 将链表的前半部分元素装入栈中，当快速runner
-*（移动的速度是慢速runner的两倍）
- 到底链表尾部时，则慢速runner已经处于链表中间位置
-*/
+将链表的前半部分元素装入栈中，当快速runner（移动的速度是慢速runner的两倍）到底链表尾部时，则慢速runner已经处于链表中间位置
+**/
         while (fast != null && fast.next != null) {
             stack.push(slow.val);
             slow = slow.next;
