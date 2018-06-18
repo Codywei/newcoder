@@ -1,9 +1,9 @@
 /**
- 二叉树中和为某一值的路径
+ 二叉树中和为某一值的路径（树）
 
  输入一颗二叉树和一个整数，打印出二叉树中结点值的和为输入整数的所有路径。路径定义为从树的根结点开始往下一直到叶结点所经过的结点形成一条路径。
 
- 这道题借鉴的是排行最高的的答案，以递归的形式找出所有路径，很简洁，（list.remove(list.size()-1);//深度遍历完要回退）这一部分最难想到。
+ 这道题借鉴的是排行最高的的答案，以递归的形式找出所有路径，很简洁，（list.remove(list.size()-1);//深度遍历完（每一步都要）要回退）这一部分最难想到。
  * */
 
 import java.util.ArrayList;
@@ -27,7 +27,8 @@ public class Solution3 {
         if(root.right!=null) {
             FindPath(root.right, target);
         }
-        list.remove(list.size()-1);//深度遍历完要回退
+        //深度遍历完要回退
+        list.remove(list.size()-1);
         return listall;
 
 

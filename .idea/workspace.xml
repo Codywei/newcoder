@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f671b6a7-e9bd-4688-8a0d-0bcf726622cf" name="Default" comment="">
+    <list default="true" id="f671b6a7-e9bd-4688-8a0d-0bcf726622cf" name="Default" comment="二叉树中和为某一值的路径">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../newcoder/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../newcoder/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../newcoder/src/Successor.java" afterPath="$PROJECT_DIR$/../newcoder/src/Successor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../newcoder/src/Solution3.java" afterPath="$PROJECT_DIR$/../newcoder/src/Solution3.java" />
     </list>
     <ignored path="$PROJECT_DIR$/../newcoder/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,16 +19,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Solution2.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../newcoder/src/Solution2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="TwoStacks.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../newcoder/src/TwoStacks.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -109,11 +99,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Successor.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Successor.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../newcoder/src/Successor.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="19">
               <caret line="1" column="10" lean-forward="false" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Solution3.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../newcoder/src/Solution3.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19">
+              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -157,6 +157,7 @@
       <find>输出单</find>
       <find>检查</find>
       <find>寻找下一个节点</find>
+      <find>二叉树中</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -170,7 +171,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../newcoder/src/Rank.java" />
         <option value="$PROJECT_DIR$/../newcoder/src/AntiOrder.java" />
         <option value="$PROJECT_DIR$/../newcoder/src/Exchange2.java" />
         <option value="$PROJECT_DIR$/../newcoder/src/Board.java" />
@@ -221,6 +221,7 @@
         <option value="$PROJECT_DIR$/../newcoder/src/TreeLevel.java" />
         <option value="$PROJECT_DIR$/../newcoder/src/Checker.java" />
         <option value="$PROJECT_DIR$/../newcoder/src/Successor.java" />
+        <option value="$PROJECT_DIR$/../newcoder/src/Solution3.java" />
       </list>
     </option>
   </component>
@@ -517,14 +518,7 @@
       <workItem from="1526373736004" duration="7792000" />
       <workItem from="1526907712100" duration="3057000" />
       <workItem from="1528266828895" duration="43939000" />
-      <workItem from="1528545392401" duration="58128000" />
-    </task>
-    <task id="LOCAL-00074" summary="双重遍历">
-      <created>1528596482617</created>
-      <option name="number" value="00074" />
-      <option name="presentableId" value="LOCAL-00074" />
-      <option name="project" value="LOCAL" />
-      <updated>1528596482617</updated>
+      <workItem from="1528545392401" duration="59203000" />
     </task>
     <task id="LOCAL-00075" summary="双重遍历">
       <created>1528596490789</created>
@@ -862,11 +856,18 @@
       <option name="project" value="LOCAL" />
       <updated>1529323975290</updated>
     </task>
-    <option name="localTasksCounter" value="123" />
+    <task id="LOCAL-00123" summary="寻找下一个节点（树）">
+      <created>1529324183825</created>
+      <option name="number" value="00123" />
+      <option name="presentableId" value="LOCAL-00123" />
+      <option name="project" value="LOCAL" />
+      <updated>1529324183825</updated>
+    </task>
+    <option name="localTasksCounter" value="124" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="256315000" />
+    <option name="totallyTimeSpent" value="257390000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1974" y="-8" width="1874" height="1096" extended-state="6" />
@@ -909,7 +910,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="最大字母矩阵" />
     <MESSAGE value=" 确定字符互异（编程基础，字符串）" />
     <MESSAGE value=" 原串翻转（编程基础，字符串）" />
     <MESSAGE value=" 确定两个字符串乱序同构（字符串）" />
@@ -934,7 +934,8 @@
     <MESSAGE value=" 高度最小的BST（树，高级结构）" />
     <MESSAGE value=" 输出单层节点（树）" />
     <MESSAGE value="检查是否为BST（树）" />
-    <option name="LAST_COMMIT_MESSAGE" value="检查是否为BST（树）" />
+    <MESSAGE value="寻找下一个节点（树）" />
+    <option name="LAST_COMMIT_MESSAGE" value="寻找下一个节点（树）" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -943,14 +944,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../newcoder/src/Stack2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="28" lean-forward="false" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../newcoder/src/Result.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-31">
@@ -1469,6 +1462,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
           <caret line="1" column="10" lean-forward="false" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../newcoder/src/Solution3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="16" />
           <folding />
         </state>
       </provider>
