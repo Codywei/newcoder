@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f671b6a7-e9bd-4688-8a0d-0bcf726622cf" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../newcoder/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../newcoder/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../newcoder/src/CatDogAsylum.java" afterPath="$PROJECT_DIR$/../newcoder/src/CatDogAsylum.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../newcoder/src/TreeNode.java" afterPath="$PROJECT_DIR$/../newcoder/src/TreeNode.java" />
     </list>
     <ignored path="$PROJECT_DIR$/../newcoder/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,16 +19,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Solution.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../newcoder/src/Solution.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="1" column="3" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Remove.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../newcoder/src/Remove.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -111,11 +101,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CatDogAsylum.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CatDogAsylum.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../newcoder/src/CatDogAsylum.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="38">
               <caret line="2" column="9" lean-forward="false" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TreeNode.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../newcoder/src/TreeNode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19">
+              <caret line="1" column="1" lean-forward="false" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -166,7 +166,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../newcoder/src/Joseph.java" />
         <option value="$PROJECT_DIR$/../newcoder/src/Joseph2.java" />
         <option value="$PROJECT_DIR$/../newcoder/src/SortString.java" />
         <option value="$PROJECT_DIR$/../newcoder/src/Finder2.java" />
@@ -217,6 +216,7 @@
         <option value="$PROJECT_DIR$/../newcoder/src/Solution2.java" />
         <option value="$PROJECT_DIR$/../newcoder/src/TwoStacks.java" />
         <option value="$PROJECT_DIR$/../newcoder/src/CatDogAsylum.java" />
+        <option value="$PROJECT_DIR$/../newcoder/src/TreeNode.java" />
       </list>
     </option>
   </component>
@@ -513,14 +513,7 @@
       <workItem from="1526373736004" duration="7792000" />
       <workItem from="1526907712100" duration="3057000" />
       <workItem from="1528266828895" duration="43939000" />
-      <workItem from="1528545392401" duration="56234000" />
-    </task>
-    <task id="LOCAL-00067" summary="二分查找">
-      <created>1528445131215</created>
-      <option name="number" value="00067" />
-      <option name="presentableId" value="LOCAL-00067" />
-      <option name="project" value="LOCAL" />
-      <updated>1528445131215</updated>
+      <workItem from="1528545392401" duration="56327000" />
     </task>
     <task id="LOCAL-00068" summary="二分查找">
       <created>1528445383694</created>
@@ -858,11 +851,18 @@
       <option name="project" value="LOCAL" />
       <updated>1529308250969</updated>
     </task>
-    <option name="localTasksCounter" value="116" />
+    <task id="LOCAL-00116" summary="猫狗收容所（队列）">
+      <created>1529322248450</created>
+      <option name="number" value="00116" />
+      <option name="presentableId" value="LOCAL-00116" />
+      <option name="project" value="LOCAL" />
+      <updated>1529322248450</updated>
+    </task>
+    <option name="localTasksCounter" value="117" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="254421000" />
+    <option name="totallyTimeSpent" value="254514000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1974" y="-8" width="1874" height="1096" extended-state="6" />
@@ -905,7 +905,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="最大合成子串" />
     <MESSAGE value="子串判断" />
     <MESSAGE value="实时中位数" />
     <MESSAGE value="字符串变换" />
@@ -930,7 +929,8 @@
     <MESSAGE value=" 集合栈（栈）" />
     <MESSAGE value=" 用两个栈实现一个队列（队列，栈）" />
     <MESSAGE value=" 双栈排序（栈）" />
-    <option name="LAST_COMMIT_MESSAGE" value=" 双栈排序（栈）" />
+    <MESSAGE value="猫狗收容所（队列）" />
+    <option name="LAST_COMMIT_MESSAGE" value="猫狗收容所（队列）" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -939,14 +939,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../newcoder/src/Exchange2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../newcoder/src/Max.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
@@ -1468,6 +1460,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
           <caret line="2" column="9" lean-forward="false" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../newcoder/src/TreeNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="1" lean-forward="false" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="1" />
           <folding />
         </state>
       </provider>

@@ -1,5 +1,5 @@
 /**
- * 树节点类
+ 树节点类
  * */
 public class TreeNode {
     int val = 0;
