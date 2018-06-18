@@ -1,5 +1,5 @@
 /**
- *节点类(用于链表题)
+ 节点类(用于链表题)
  * */
 public class ListNode {
     int val;
