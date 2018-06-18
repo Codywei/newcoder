@@ -1,6 +1,5 @@
-import java.util.*;
 /**
- 像素设定
+ 像素设定（编程基础）
 
  有一个单色屏幕储存在一维数组中，其中数组的每个元素代表连续的8位的像素的值，请实现一个函数，将第x到第y个像素涂上颜色(像素标号从零开始)，并尝试尽量使用最快的办法。
 
@@ -49,7 +48,7 @@ public class Render {
     }
     public static void main(String[]args){
         int [] sreen={0,0};
-//        int [] result=renderPixel1(sreen,0,14);
+//      int [] result=renderPixel1(sreen,0,14);
         int [] result1=renderPixel2(sreen,0,14);
         for(int i=0;i<result1.length;i++){
             System.out.println(result1[i]);
