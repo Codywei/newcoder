@@ -1,13 +1,13 @@
-import java.util.*;
 /**
-删除单向链表中的某一节点
+访问单个节点的删除（编程基础、链表）
 
  实现一个算法，删除单向链表中间的某个结点，假定你只能访问该结点。
 
  给定带删除的节点，请执行删除操作，若该节点为尾节点，返回false，否则返回true
 
  这道题的主体思想是把后一个节点的值和next都赋给要删除的节点，然后删除后一个节点，其中第二种解法并不能改写节点中的值
- [方法中传入的pNode不是对象而是引用，不能直接修改这个引用，而是要修改这个引用所指向的值]
+
+ [方法二中传入的pNode不是对象而是对象的引用，不能直接修改这个引用，而是要修改这个引用所指向对象的值]
 
  * */
 public class Remove {
@@ -24,7 +24,7 @@ public class Remove {
             return false;
         }
         pNode=pNode.next;
-//        System.out.println(pNode.val);
+//      System.out.println(pNode.val);
         return true;
     }
     public static void main(String[]args){
@@ -37,12 +37,7 @@ public class Remove {
         p1.next=p2;
         p2.next=p3;
         p3.next=p4;
-//        removeNode1(p3);
-//        while(head!=null){
-//            System.out.println(head.val);
-//            head =head.next;
-//
-//        }
+//      removeNode1(p3);
         removeNode2(p3);
         while(head!=null){
             System.out.println(head.val);
