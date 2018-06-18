@@ -6,40 +6,42 @@ import java.util.HashMap;
 
  给定一个点集vector<point>p和点集的大小n,没有两个点的横坐标相等的情况,请返回一个vector<double>，代表经过点数最多的那条直线的斜率和截距。</double></point>
 
- 遍历出所有直线（按点和斜率）,取值最大的
+ 遍历出所有直线（按斜率和截距）,用hashmap记录数量，取值最大的
  * */
 
 public class DenseLine {
     public static double[] getLine(Point[] p, int n) {
-        HashMap<Double,Integer> pointmap=new HashMap();
+
+        HashMap<double[],Integer> pointmap=new HashMap();
+
+        double []maxpointkey=new double[2];
         int max=0;
-        double xie=0;
-        Point maxp=null;
+
         for(int i=0;i<n;i++){
             for(int j=i;j<n;j++){
                 if(p[i].x==p[j].x){
                     continue;
                 }
-                double tempxie=(p[j].y-p[i].y)/(p[j].x-p[i].x);
-                if(pointmap.get(i)==null){
-                    pointmap.put(tempxie,1);
+
+                double []pointkey=new double[2];
+                pointkey[0]=(p[j].y-p[i].y)/(p[j].x-p[i].x);
+                pointkey[1]=p[i].y-(p[i].x)*pointkey[0];
+                if(pointmap.get(pointkey)==null){
+                    pointmap.put(pointkey,1);
                 }
                 else{
-                    int count=pointmap.get(tempxie);
-                    pointmap.put(tempxie,count+1);
+                    int count=pointmap.get(pointkey);
+                    pointmap.put(pointkey,count+1);
                 }
-                if(pointmap.get(tempxie)>max){
-                    max=pointmap.get(tempxie);
-                    maxp=p[i];
-                    xie=tempxie;
+                if(pointmap.get(pointkey)>max){
+                    max=pointmap.get(pointkey);
+                    maxpointkey=pointkey;
+
                 }
             }
         }
-        double jie=maxp.y-(maxp.x)*xie;
-        double  []res=new double[2];
-        res[0]=xie;
-        res[1]=jie;
-        return res;
+
+        return maxpointkey;
 
     }
     public static void main(String[]args){
