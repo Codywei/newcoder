@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f671b6a7-e9bd-4688-8a0d-0bcf726622cf" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../newcoder/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../newcoder/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../newcoder/src/Ants.java" afterPath="$PROJECT_DIR$/../newcoder/src/Ants.java" />
-    </list>
+    <list default="true" id="f671b6a7-e9bd-4688-8a0d-0bcf726622cf" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/../newcoder/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -112,8 +109,8 @@
       <file leaf-file-name="Ants.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../newcoder/src/Ants.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="12" />
+            <state relative-caret-position="190">
+              <caret line="10" column="1" lean-forward="false" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -520,14 +517,7 @@
       <workItem from="1526373736004" duration="7792000" />
       <workItem from="1526907712100" duration="3057000" />
       <workItem from="1528266828895" duration="43939000" />
-      <workItem from="1528545392401" duration="60988000" />
-    </task>
-    <task id="LOCAL-00083" summary="数字发音">
-      <created>1528698647357</created>
-      <option name="number" value="00083" />
-      <option name="presentableId" value="LOCAL-00083" />
-      <option name="project" value="LOCAL" />
-      <updated>1528698647357</updated>
+      <workItem from="1528545392401" duration="61020000" />
     </task>
     <task id="LOCAL-00084" summary="词频统计">
       <created>1528701547565</created>
@@ -865,11 +855,18 @@
       <option name="project" value="LOCAL" />
       <updated>1529326902023</updated>
     </task>
-    <option name="localTasksCounter" value="132" />
+    <task id="LOCAL-00132" summary=" 碰撞的蚂蚁（数学基础）">
+      <created>1529326994718</created>
+      <option name="number" value="00132" />
+      <option name="presentableId" value="LOCAL-00132" />
+      <option name="project" value="LOCAL" />
+      <updated>1529326994719</updated>
+    </task>
+    <option name="localTasksCounter" value="133" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="259175000" />
+    <option name="totallyTimeSpent" value="259207000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1974" y="-8" width="1874" height="1096" extended-state="6" />
@@ -912,7 +909,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="单链表节点类" />
     <MESSAGE value=" 链表中的倒数第k个节点（链表）" />
     <MESSAGE value="访问单个节点的删除（编程基础、链表）" />
     <MESSAGE value=" 链表分割（编程基础、链表）" />
@@ -937,7 +933,8 @@
     <MESSAGE value=" 奇偶位交换（编程基础）" />
     <MESSAGE value=" 找出缺失的整数（编程基础）" />
     <MESSAGE value=" 像素设定（编程基础）" />
-    <option name="LAST_COMMIT_MESSAGE" value=" 像素设定（编程基础）" />
+    <MESSAGE value=" 碰撞的蚂蚁（数学基础）" />
+    <option name="LAST_COMMIT_MESSAGE" value=" 碰撞的蚂蚁（数学基础）" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1467,8 +1464,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../newcoder/src/Ants.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="12" />
+        <state relative-caret-position="190">
+          <caret line="10" column="1" lean-forward="false" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
           <folding />
         </state>
       </provider>
