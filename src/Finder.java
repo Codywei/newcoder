@@ -1,6 +1,5 @@
-import java.util.*;
 /**
- 找出缺失的整数
+ 找出缺失的整数（编程基础）
 
  数组A包含了0到n的所有整数，但其中缺失了一个。对于这个问题，我们设定限制，使得一次操作无法取得数组number里某个整数的完整内容。
 
@@ -12,7 +11,7 @@ import java.util.*;
  * */
 public class Finder {
     public static int findMissing(int[][] numbers, int n) {
-        // write code here
+
         for(int i=0;i<numbers.length;i++){
             if((i%2==0)&&(numbers[i][0]!=0)){
                 return i;
