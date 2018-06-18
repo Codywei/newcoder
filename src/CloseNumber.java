@@ -1,5 +1,5 @@
 /**
- 最接近的数
+ 最接近的数(编程基础)
 
  有一个正整数，请找出其二进制表示中1的个数相同、且大小最接近的那两个数。(一个略大，一个略小)
 
@@ -23,7 +23,10 @@ public class CloseNumber {
 
 
     }
-    public static  int  getCountOne(int x){ //求该整数二进制中1的个数
+    /**
+     求该整数二进制中1的个数
+     * */
+    public static  int  getCountOne(int x){
         int  result=0;
         while(x!=0){
             result++;
