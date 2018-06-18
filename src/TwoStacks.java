@@ -1,6 +1,7 @@
-import org.omg.PortableInterceptor.INACTIVE;
+import java.util.*;
+
 /**
- 双栈排序
+ 双栈排序（栈）
 
  请编写一个程序，按升序对栈进行排序（即最大元素位于栈顶），要求最多只能使用一个额外的栈存放临时数据，但不得将元素复制到别的数据结构中。
 
@@ -8,7 +9,7 @@ import org.omg.PortableInterceptor.INACTIVE;
 
  第二种解法思路较清晰一些（其实第一种（我做的）也还好）
  * */
-import java.util.*;
+
 
 public class TwoStacks {
     public static ArrayList<Integer> twoStacksSort1(int[] numbers) {
@@ -77,7 +78,7 @@ public class TwoStacks {
                         initstack.push(tmp2);
                     }
                 }
-          if(tmp1>=tmp2){
+                if(tmp1>=tmp2){
                     tempstack.push(tmp2);
                     }
                 tempstack.push(tmp1);
