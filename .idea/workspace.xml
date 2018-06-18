@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f671b6a7-e9bd-4688-8a0d-0bcf726622cf" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../newcoder/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../newcoder/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../newcoder/src/MinimalBST.java" afterPath="$PROJECT_DIR$/../newcoder/src/MinimalBST.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../newcoder/src/TreeLevel.java" afterPath="$PROJECT_DIR$/../newcoder/src/TreeLevel.java" />
     </list>
     <ignored path="$PROJECT_DIR$/../newcoder/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,16 +19,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Stack1.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../newcoder/src/Stack1.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
-              <caret line="27" column="31" lean-forward="true" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Palindrome.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../newcoder/src/Palindrome.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -109,11 +99,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MinimalBST.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MinimalBST.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../newcoder/src/MinimalBST.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="19">
               <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TreeLevel.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../newcoder/src/TreeLevel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19">
+              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -154,6 +154,7 @@
       <find>二叉树</find>
       <find>有向路径</find>
       <find>高度最小</find>
+      <find>输出单</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -167,7 +168,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../newcoder/src/Finder3.java" />
         <option value="$PROJECT_DIR$/../newcoder/src/Finder4.java" />
         <option value="$PROJECT_DIR$/../newcoder/src/Stack2.java" />
         <option value="$PROJECT_DIR$/../newcoder/src/Rank.java" />
@@ -218,6 +218,7 @@
         <option value="$PROJECT_DIR$/../newcoder/src/Balance.java" />
         <option value="$PROJECT_DIR$/../newcoder/src/Path.java" />
         <option value="$PROJECT_DIR$/../newcoder/src/MinimalBST.java" />
+        <option value="$PROJECT_DIR$/../newcoder/src/TreeLevel.java" />
       </list>
     </option>
   </component>
@@ -514,14 +515,7 @@
       <workItem from="1526373736004" duration="7792000" />
       <workItem from="1526907712100" duration="3057000" />
       <workItem from="1528266828895" duration="43939000" />
-      <workItem from="1528545392401" duration="57105000" />
-    </task>
-    <task id="LOCAL-00071" summary="动态规划">
-      <created>1528509138984</created>
-      <option name="number" value="00071" />
-      <option name="presentableId" value="LOCAL-00071" />
-      <option name="project" value="LOCAL" />
-      <updated>1528509138997</updated>
+      <workItem from="1528545392401" duration="57371000" />
     </task>
     <task id="LOCAL-00072" summary="动态规划">
       <created>1528532283687</created>
@@ -859,11 +853,18 @@
       <option name="project" value="LOCAL" />
       <updated>1529322852934</updated>
     </task>
-    <option name="localTasksCounter" value="120" />
+    <task id="LOCAL-00120" summary=" 高度最小的BST（树，高级结构）">
+      <created>1529323103941</created>
+      <option name="number" value="00120" />
+      <option name="presentableId" value="LOCAL-00120" />
+      <option name="project" value="LOCAL" />
+      <updated>1529323103941</updated>
+    </task>
+    <option name="localTasksCounter" value="121" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="255292000" />
+    <option name="totallyTimeSpent" value="255558000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1974" y="-8" width="1874" height="1096" extended-state="6" />
@@ -906,7 +907,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="最大合子方阵" />
     <MESSAGE value="最大子方阵" />
     <MESSAGE value="最大和子矩阵" />
     <MESSAGE value="最大字母矩阵" />
@@ -931,7 +931,8 @@
     <MESSAGE value="树节点类" />
     <MESSAGE value=" 二叉树平衡检查（树）" />
     <MESSAGE value="有向路径检查（图）" />
-    <option name="LAST_COMMIT_MESSAGE" value="有向路径检查（图）" />
+    <MESSAGE value=" 高度最小的BST（树，高级结构）" />
+    <option name="LAST_COMMIT_MESSAGE" value=" 高度最小的BST（树，高级结构）" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -940,14 +941,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../newcoder/src/MagicIndex2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="24" column="22" lean-forward="false" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../newcoder/src/AntiOrder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
@@ -1466,6 +1459,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
           <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../newcoder/src/TreeLevel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="10" />
           <folding />
         </state>
       </provider>
