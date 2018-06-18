@@ -1,6 +1,6 @@
 import java.util.Stack;
 /**
- 用两个栈实现一个队列
+ 用两个栈实现一个队列（队列，栈）
 
  用两个栈来实现一个队列，完成队列的Push和Pop操作。 队列中的元素为int类型。
 
@@ -34,7 +34,7 @@ public class Solution2 {
         if(stack1.empty()&&stack2.empty()){
             throw new RuntimeException("Queue is empty!");
         }
-
+       //当栈2为空时，再将栈1的所有元素pop-push到栈2中
         if(stack2.empty()){
               while(!stack1.empty()){
                   stack2.push(stack1.pop());
