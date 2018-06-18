@@ -1,12 +1,12 @@
 import java.util.*;
 /**
- 清除行列
+ 清除行列（数组）
 
  请编写一个算法，若N阶方阵中某个元素为0，则将其所在的行与列清零。
 
  给定一个N阶方阵int[][](C++中为vector<vector><int>>)mat和矩阵的阶数n，请返回完成操作后的int[][]方阵(C++中为vector<vector><int>>)，保证n小于等于300，矩阵中的元素为int范围内。
 
- 这里我写了两个解法，解法一采用hashset，记录元素为零时对应的行列值，二次遍历时按hashset清除；解法二是错误的，hashmap在插入一个key,value后，再碰到相同的key就会覆盖。
+ 这里我写了两个解法，解法一采用hashset，记录元素为零时对应的行列值，二次遍历时按hashset清除；解法二是错误的，hashmap在插入一个key,value后，再碰到相同的key就会覆盖原来的value。
  * */
 public class Clearer {
     public static int[][] clearZero1(int[][] mat, int n) {
