@@ -3,9 +3,9 @@ import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.Queue;
 /**
- 有向路径检查
+ 有向路径检查（图）
 
- 对于一个有向图，请实现一个算法，找出两点之间是否存在一条路径。
+ 对于一个有向图，请实现一个算法，找出两点之间是否存在一条路径。（根据题意应该是无向图）
 
  给定图中的两个结点的指针UndirectedGraphNode* a,UndirectedGraphNode* b(请不要在意数据类型，图是有向图),请返回一个bool，代表两点之间是否存在一条路径(a到b或b到a)。
 
