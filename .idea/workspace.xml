@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f671b6a7-e9bd-4688-8a0d-0bcf726622cf" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../newcoder/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../newcoder/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../newcoder/src/Ants.java" afterPath="$PROJECT_DIR$/../newcoder/src/Ants.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../newcoder/src/CrossLine.java" afterPath="$PROJECT_DIR$/../newcoder/src/CrossLine.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../newcoder/src/AddSubstitution.java" afterPath="$PROJECT_DIR$/../newcoder/src/AddSubstitution.java" />
     </list>
     <ignored path="$PROJECT_DIR$/../newcoder/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,16 +18,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Solution3.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../newcoder/src/Solution3.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="BinInsert.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../newcoder/src/BinInsert.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -110,8 +98,18 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CrossLine.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CrossLine.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../newcoder/src/CrossLine.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19">
+              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AddSubstitution.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../newcoder/src/AddSubstitution.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="19">
               <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="13" />
@@ -131,7 +129,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>空格替换</find>
       <find>基本</find>
       <find>像素翻转</find>
       <find>清除行列</find>
@@ -161,6 +158,7 @@
       <find>像素设定</find>
       <find>碰撞的蚂蚁</find>
       <find>判断直线</find>
+      <find>加法运算</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -174,7 +172,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../newcoder/src/Frequency.java" />
         <option value="$PROJECT_DIR$/../newcoder/src/FindPair.java" />
         <option value="$PROJECT_DIR$/../newcoder/src/Converter.java" />
         <option value="$PROJECT_DIR$/../newcoder/src/UnusualAdd.java" />
@@ -225,6 +222,7 @@
         <option value="$PROJECT_DIR$/../newcoder/src/Render.java" />
         <option value="$PROJECT_DIR$/../newcoder/src/Ants.java" />
         <option value="$PROJECT_DIR$/../newcoder/src/CrossLine.java" />
+        <option value="$PROJECT_DIR$/../newcoder/src/AddSubstitution.java" />
       </list>
     </option>
   </component>
@@ -521,14 +519,7 @@
       <workItem from="1526373736004" duration="7792000" />
       <workItem from="1526907712100" duration="3057000" />
       <workItem from="1528266828895" duration="43939000" />
-      <workItem from="1528545392401" duration="61088000" />
-    </task>
-    <task id="LOCAL-00085" summary="整数对查找">
-      <created>1528702958772</created>
-      <option name="number" value="00085" />
-      <option name="presentableId" value="LOCAL-00085" />
-      <option name="project" value="LOCAL" />
-      <updated>1528702958773</updated>
+      <workItem from="1528545392401" duration="61292000" />
     </task>
     <task id="LOCAL-00086" summary="整数对查找">
       <created>1528702982084</created>
@@ -866,11 +857,18 @@
       <option name="project" value="LOCAL" />
       <updated>1529327025159</updated>
     </task>
-    <option name="localTasksCounter" value="134" />
+    <task id="LOCAL-00134" summary=" 判断直线相交（数学基础）">
+      <created>1529327093376</created>
+      <option name="number" value="00134" />
+      <option name="presentableId" value="LOCAL-00134" />
+      <option name="project" value="LOCAL" />
+      <updated>1529327093376</updated>
+    </task>
+    <option name="localTasksCounter" value="135" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="259275000" />
+    <option name="totallyTimeSpent" value="259479000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1974" y="-8" width="1874" height="1096" extended-state="6" />
@@ -913,7 +911,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value=" 链表中的倒数第k个节点（链表）" />
     <MESSAGE value="访问单个节点的删除（编程基础、链表）" />
     <MESSAGE value=" 链表分割（编程基础、链表）" />
     <MESSAGE value=" 链表A+B（编程基础、链表）" />
@@ -938,7 +935,8 @@
     <MESSAGE value=" 找出缺失的整数（编程基础）" />
     <MESSAGE value=" 像素设定（编程基础）" />
     <MESSAGE value=" 碰撞的蚂蚁（数学基础）" />
-    <option name="LAST_COMMIT_MESSAGE" value=" 碰撞的蚂蚁（数学基础）" />
+    <MESSAGE value=" 判断直线相交（数学基础）" />
+    <option name="LAST_COMMIT_MESSAGE" value=" 判断直线相交（数学基础）" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1167,14 +1165,6 @@
           <Categories />
           <SCOPE>All</SCOPE>
           <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../newcoder/src/AddSubstitution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="10" column="30" lean-forward="true" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1467,6 +1457,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../newcoder/src/CrossLine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../newcoder/src/AddSubstitution.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
           <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="13" />
