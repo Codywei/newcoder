@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f671b6a7-e9bd-4688-8a0d-0bcf726622cf" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../newcoder/src/Finder2.java" afterPath="$PROJECT_DIR$/../newcoder/src/Finder2.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../newcoder/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../newcoder/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../newcoder/src/Finder4.java" afterPath="$PROJECT_DIR$/../newcoder/src/Finder4.java" />
     </list>
     <ignored path="$PROJECT_DIR$/../newcoder/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -48,7 +49,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Finder2.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Finder2.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../newcoder/src/Finder2.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="19">
@@ -78,11 +79,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Parenthesis.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../newcoder/src/Parenthesis.java">
+      <file leaf-file-name="Finder4.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../newcoder/src/Finder4.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="23" column="29" lean-forward="true" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
+            <state relative-caret-position="19">
+              <caret line="1" column="4" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -129,7 +130,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>二叉树中</find>
       <find>二进制插入</find>
       <find>二进制</find>
       <find>最接近的</find>
@@ -159,6 +159,7 @@
       <find>约瑟夫问题II</find>
       <find>变位词</find>
       <find>元素查找</find>
+      <find>矩阵元素</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -175,7 +176,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../newcoder/src/Transform.java" />
         <option value="$PROJECT_DIR$/../newcoder/src/Clearer.java" />
         <option value="$PROJECT_DIR$/../newcoder/src/ReverseEqual.java" />
         <option value="$PROJECT_DIR$/../newcoder/src/ListNode.java" />
@@ -226,6 +226,7 @@
         <option value="$PROJECT_DIR$/../newcoder/src/SortString.java" />
         <option value="$PROJECT_DIR$/../newcoder/src/Finder3.java" />
         <option value="$PROJECT_DIR$/../newcoder/src/Finder2.java" />
+        <option value="$PROJECT_DIR$/../newcoder/src/Finder4.java" />
       </list>
     </option>
   </component>
@@ -522,14 +523,7 @@
       <workItem from="1526373736004" duration="7792000" />
       <workItem from="1526907712100" duration="3057000" />
       <workItem from="1528266828895" duration="43939000" />
-      <workItem from="1528545392401" duration="71157000" />
-    </task>
-    <task id="LOCAL-00107" summary="单链表节点类">
-      <created>1529302819288</created>
-      <option name="number" value="00107" />
-      <option name="presentableId" value="LOCAL-00107" />
-      <option name="project" value="LOCAL" />
-      <updated>1529302819288</updated>
+      <workItem from="1528545392401" duration="71262000" />
     </task>
     <task id="LOCAL-00108" summary=" 链表中的倒数第k个节点（链表）">
       <created>1529303294702</created>
@@ -867,11 +861,18 @@
       <option name="project" value="LOCAL" />
       <updated>1529463362366</updated>
     </task>
-    <option name="localTasksCounter" value="156" />
+    <task id="LOCAL-00156" summary=" 元素查找（二分查找）">
+      <created>1529463394261</created>
+      <option name="number" value="00156" />
+      <option name="presentableId" value="LOCAL-00156" />
+      <option name="project" value="LOCAL" />
+      <updated>1529463394261</updated>
+    </task>
+    <option name="localTasksCounter" value="157" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="269344000" />
+    <option name="totallyTimeSpent" value="269449000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1974" y="-8" width="1874" height="1096" extended-state="6" />
@@ -914,7 +915,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value=" 找出缺失的整数（编程基础）" />
     <MESSAGE value=" 像素设定（编程基础）" />
     <MESSAGE value=" 碰撞的蚂蚁（数学基础）" />
     <MESSAGE value=" 判断直线相交（数学基础）" />
@@ -939,7 +939,8 @@
     <MESSAGE value=" 变位词排序（排序、查找）" />
     <MESSAGE value=" 元素查找（二分排序）" />
     <MESSAGE value=" 找出字符串（二分查找）" />
-    <option name="LAST_COMMIT_MESSAGE" value=" 找出字符串（二分查找）" />
+    <MESSAGE value=" 元素查找（二分查找）" />
+    <option name="LAST_COMMIT_MESSAGE" value=" 元素查找（二分查找）" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -948,14 +949,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../newcoder/src/Transform.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="11" column="48" lean-forward="true" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../newcoder/src/Clearer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="589">
@@ -1357,6 +1350,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
           <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../newcoder/src/Finder4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="4" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="14" />
           <folding />
         </state>
       </provider>
