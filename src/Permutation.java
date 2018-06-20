@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 
 /**
- 字符串排列
+ 字符串排列（递归）
 
  编写一个方法，确定某字符串的所有排列组合。
 

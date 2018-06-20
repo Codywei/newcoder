@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.Arrays;
 /**
- 集合的子集
+ 集合的子集（二进制）
 
  请编写一个方法，返回某集合的所有非空子集。
 
