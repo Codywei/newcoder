@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f671b6a7-e9bd-4688-8a0d-0bcf726622cf" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../newcoder/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../newcoder/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../newcoder/src/GoUpstairs.java" afterPath="$PROJECT_DIR$/../newcoder/src/GoUpstairs.java" />
     </list>
     <ignored path="$PROJECT_DIR$/../newcoder/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -520,14 +519,7 @@
       <workItem from="1526373736004" duration="7792000" />
       <workItem from="1526907712100" duration="3057000" />
       <workItem from="1528266828895" duration="43939000" />
-      <workItem from="1528545392401" duration="66956000" />
-    </task>
-    <task id="LOCAL-00091" summary="子串判断">
-      <created>1528875502104</created>
-      <option name="number" value="00091" />
-      <option name="presentableId" value="LOCAL-00091" />
-      <option name="project" value="LOCAL" />
-      <updated>1528875502104</updated>
+      <workItem from="1528545392401" duration="66998000" />
     </task>
     <task id="LOCAL-00092" summary="实时中位数">
       <created>1528878868925</created>
@@ -865,11 +857,18 @@
       <option name="project" value="LOCAL" />
       <updated>1529330866397</updated>
     </task>
-    <option name="localTasksCounter" value="140" />
+    <task id="LOCAL-00140" summary=" 上楼梯（递归和动态规划）">
+      <created>1529457668655</created>
+      <option name="number" value="00140" />
+      <option name="presentableId" value="LOCAL-00140" />
+      <option name="project" value="LOCAL" />
+      <updated>1529457668656</updated>
+    </task>
+    <option name="localTasksCounter" value="141" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="265143000" />
+    <option name="totallyTimeSpent" value="265185000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1974" y="-8" width="1874" height="1096" extended-state="6" />
@@ -912,7 +911,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value=" 用两个栈实现一个队列（队列，栈）" />
     <MESSAGE value=" 双栈排序（栈）" />
     <MESSAGE value="猫狗收容所（队列）" />
     <MESSAGE value="树节点类" />
@@ -937,7 +935,8 @@
     <MESSAGE value=" 穿点最多的直线（数学基础）" />
     <MESSAGE value=" 第k个数（数学基础）" />
     <MESSAGE value="穿点最多的直线（数学基础）" />
-    <option name="LAST_COMMIT_MESSAGE" value="穿点最多的直线（数学基础）" />
+    <MESSAGE value=" 上楼梯（递归和动态规划）" />
+    <option name="LAST_COMMIT_MESSAGE" value=" 上楼梯（递归和动态规划）" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
