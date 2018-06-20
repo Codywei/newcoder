@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f671b6a7-e9bd-4688-8a0d-0bcf726622cf" name="Default" comment="" />
+    <list default="true" id="f671b6a7-e9bd-4688-8a0d-0bcf726622cf" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../newcoder/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../newcoder/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../newcoder/src/Factor.java" afterPath="$PROJECT_DIR$/../newcoder/src/Factor.java" />
+    </list>
     <ignored path="$PROJECT_DIR$/../newcoder/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,16 +19,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Finder2.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../newcoder/src/Finder2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Finder4.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../newcoder/src/Finder4.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -106,8 +99,18 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Result.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Result.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../newcoder/src/Result.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="494">
+              <caret line="26" column="30" lean-forward="true" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Factor.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../newcoder/src/Factor.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="19">
               <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="11" />
@@ -127,7 +130,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>判断直线</find>
       <find>加法运算</find>
       <find>平分的直线</find>
       <find>在二维</find>
@@ -157,6 +159,7 @@
       <find>井字棋</find>
       <find>无判断</find>
       <find>珠玑妙算</find>
+      <find>阶乘尾零</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -173,7 +176,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../newcoder/src/Palindrome.java" />
         <option value="$PROJECT_DIR$/../newcoder/src/SetOfStacks.java" />
         <option value="$PROJECT_DIR$/../newcoder/src/Solution2.java" />
         <option value="$PROJECT_DIR$/../newcoder/src/TwoStacks.java" />
@@ -224,6 +226,7 @@
         <option value="$PROJECT_DIR$/../newcoder/src/Board.java" />
         <option value="$PROJECT_DIR$/../newcoder/src/Max.java" />
         <option value="$PROJECT_DIR$/../newcoder/src/Result.java" />
+        <option value="$PROJECT_DIR$/../newcoder/src/Factor.java" />
       </list>
     </option>
   </component>
@@ -520,14 +523,7 @@
       <workItem from="1526373736004" duration="7792000" />
       <workItem from="1526907712100" duration="3057000" />
       <workItem from="1528266828895" duration="43939000" />
-      <workItem from="1528545392401" duration="74852000" />
-    </task>
-    <task id="LOCAL-00117" summary="树节点类">
-      <created>1529322328923</created>
-      <option name="number" value="00117" />
-      <option name="presentableId" value="LOCAL-00117" />
-      <option name="project" value="LOCAL" />
-      <updated>1529322328924</updated>
+      <workItem from="1528545392401" duration="75160000" />
     </task>
     <task id="LOCAL-00118" summary=" 二叉树平衡检查（树）">
       <created>1529322547426</created>
@@ -865,11 +861,18 @@
       <option name="project" value="LOCAL" />
       <updated>1529480438864</updated>
     </task>
-    <option name="localTasksCounter" value="166" />
+    <task id="LOCAL-00166" summary=" 珠玑妙算（编程基础）">
+      <created>1529480498348</created>
+      <option name="number" value="00166" />
+      <option name="presentableId" value="LOCAL-00166" />
+      <option name="project" value="LOCAL" />
+      <updated>1529480498348</updated>
+    </task>
+    <option name="localTasksCounter" value="167" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="273039000" />
+    <option name="totallyTimeSpent" value="273347000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1974" y="-8" width="1874" height="1096" extended-state="6" />
@@ -946,14 +949,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../newcoder/src/Palindrome.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="44" lean-forward="true" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../newcoder/src/SetOfStacks.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
@@ -1347,6 +1342,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../newcoder/src/Result.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="26" column="30" lean-forward="true" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../newcoder/src/Factor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
           <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="11" />
