@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f671b6a7-e9bd-4688-8a0d-0bcf726622cf" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../newcoder/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../newcoder/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../newcoder/src/Count2.java" afterPath="$PROJECT_DIR$/../newcoder/src/Count2.java" />
     </list>
     <ignored path="$PROJECT_DIR$/../newcoder/out/" />
@@ -91,8 +92,8 @@
       <file leaf-file-name="Count2.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../newcoder/src/Count2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="11" />
+            <state relative-caret-position="38">
+              <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -522,14 +523,7 @@
       <workItem from="1526373736004" duration="7792000" />
       <workItem from="1526907712100" duration="3057000" />
       <workItem from="1528266828895" duration="43939000" />
-      <workItem from="1528545392401" duration="75991000" />
-    </task>
-    <task id="LOCAL-00126" summary=" 二进制小数（编程基础）">
-      <created>1529325680009</created>
-      <option name="number" value="00126" />
-      <option name="presentableId" value="LOCAL-00126" />
-      <option name="project" value="LOCAL" />
-      <updated>1529325680009</updated>
+      <workItem from="1528545392401" duration="76463000" />
     </task>
     <task id="LOCAL-00127" summary="最接近的数(编程基础)">
       <created>1529325996371</created>
@@ -867,11 +861,18 @@
       <option name="project" value="LOCAL" />
       <updated>1529481461986</updated>
     </task>
-    <option name="localTasksCounter" value="175" />
+    <task id="LOCAL-00175" summary=" 2的个数（编程基础）">
+      <created>1529481590892</created>
+      <option name="number" value="00175" />
+      <option name="presentableId" value="LOCAL-00175" />
+      <option name="project" value="LOCAL" />
+      <updated>1529481590892</updated>
+    </task>
+    <option name="localTasksCounter" value="176" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="274178000" />
+    <option name="totallyTimeSpent" value="274650000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1974" y="-8" width="1874" height="1096" extended-state="6" />
@@ -914,7 +915,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value=" 硬币表示（递归、动态规划）" />
     <MESSAGE value=" n皇后问题（分支，回溯法）" />
     <MESSAGE value=" 约瑟夫问题I（链表）" />
     <MESSAGE value=" 约瑟夫问题II(链表)" />
@@ -939,7 +939,8 @@
     <MESSAGE value=" 整数对查找（编程基础）" />
     <MESSAGE value="树转链表（编程基础）" />
     <MESSAGE value="另类加法（编程基础）" />
-    <option name="LAST_COMMIT_MESSAGE" value="另类加法（编程基础）" />
+    <MESSAGE value=" 2的个数（编程基础）" />
+    <option name="LAST_COMMIT_MESSAGE" value=" 2的个数（编程基础）" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1350,8 +1351,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../newcoder/src/Count2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="11" />
+        <state relative-caret-position="38">
+          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding />
         </state>
       </provider>
