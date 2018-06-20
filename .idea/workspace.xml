@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f671b6a7-e9bd-4688-8a0d-0bcf726622cf" name="Default" comment=" 叠罗汉II（动态规划）">
+    <list default="true" id="f671b6a7-e9bd-4688-8a0d-0bcf726622cf" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../newcoder/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../newcoder/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../newcoder/src/Stack1.java" afterPath="$PROJECT_DIR$/../newcoder/src/Stack1.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../newcoder/src/Rank.java" afterPath="$PROJECT_DIR$/../newcoder/src/Rank.java" />
     </list>
     <ignored path="$PROJECT_DIR$/../newcoder/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -99,7 +99,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Stack1.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Stack1.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../newcoder/src/Stack1.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="19">
@@ -109,11 +109,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Queens.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../newcoder/src/Queens.java">
+      <file leaf-file-name="Rank.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../newcoder/src/Rank.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+            <state relative-caret-position="19">
+              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -130,7 +130,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>最接近的</find>
       <find>整数转化</find>
       <find>奇</find>
       <find>缺失的</find>
@@ -160,6 +159,7 @@
       <find>矩阵元素</find>
       <find>叠罗汉</find>
       <find>叠罗汉I</find>
+      <find>维护</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -176,7 +176,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../newcoder/src/ListNode.java" />
         <option value="$PROJECT_DIR$/../newcoder/src/Solution.java" />
         <option value="$PROJECT_DIR$/../newcoder/src/Remove.java" />
         <option value="$PROJECT_DIR$/../newcoder/src/Partition.java" />
@@ -227,6 +226,7 @@
         <option value="$PROJECT_DIR$/../newcoder/src/Finder4.java" />
         <option value="$PROJECT_DIR$/../newcoder/src/Stack2.java" />
         <option value="$PROJECT_DIR$/../newcoder/src/Stack1.java" />
+        <option value="$PROJECT_DIR$/../newcoder/src/Rank.java" />
       </list>
     </option>
   </component>
@@ -523,14 +523,7 @@
       <workItem from="1526373736004" duration="7792000" />
       <workItem from="1526907712100" duration="3057000" />
       <workItem from="1528266828895" duration="43939000" />
-      <workItem from="1528545392401" duration="71594000" />
-    </task>
-    <task id="LOCAL-00110" summary=" 链表分割（编程基础、链表）">
-      <created>1529304340778</created>
-      <option name="number" value="00110" />
-      <option name="presentableId" value="LOCAL-00110" />
-      <option name="project" value="LOCAL" />
-      <updated>1529304340778</updated>
+      <workItem from="1528545392401" duration="71737000" />
     </task>
     <task id="LOCAL-00111" summary=" 链表A+B（编程基础、链表）">
       <created>1529304849442</created>
@@ -868,11 +861,18 @@
       <option name="project" value="LOCAL" />
       <updated>1529463570126</updated>
     </task>
-    <option name="localTasksCounter" value="159" />
+    <task id="LOCAL-00159" summary=" 叠罗汉I（动态规划）">
+      <created>1529463832764</created>
+      <option name="number" value="00159" />
+      <option name="presentableId" value="LOCAL-00159" />
+      <option name="project" value="LOCAL" />
+      <updated>1529463832764</updated>
+    </task>
+    <option name="localTasksCounter" value="160" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="269781000" />
+    <option name="totallyTimeSpent" value="269924000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1974" y="-8" width="1874" height="1096" extended-state="6" />
@@ -915,7 +915,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value=" 判断直线相交（数学基础）" />
     <MESSAGE value=" 加法运算替代（数学基础）" />
     <MESSAGE value=" 平分的直线（数学基础）" />
     <MESSAGE value=" 穿点最多的直线（数学基础）" />
@@ -940,7 +939,8 @@
     <MESSAGE value=" 元素查找（二分查找）" />
     <MESSAGE value=" 矩阵元素查找（排序、查找）" />
     <MESSAGE value=" 叠罗汉II（动态规划）" />
-    <option name="LAST_COMMIT_MESSAGE" value=" 叠罗汉II（动态规划）" />
+    <MESSAGE value=" 叠罗汉I（动态规划）" />
+    <option name="LAST_COMMIT_MESSAGE" value=" 叠罗汉I（动态规划）" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -949,14 +949,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../newcoder/src/ReverseEqual.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../newcoder/src/ListNode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
@@ -1358,6 +1350,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
           <caret line="1" column="10" lean-forward="false" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../newcoder/src/Rank.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="10" />
           <folding />
         </state>
       </provider>
