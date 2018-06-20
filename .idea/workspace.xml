@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f671b6a7-e9bd-4688-8a0d-0bcf726622cf" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../newcoder/src/FindPair.java" afterPath="$PROJECT_DIR$/../newcoder/src/FindPair.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../newcoder/src/Converter.java" afterPath="$PROJECT_DIR$/../newcoder/src/Converter.java" />
     </list>
     <ignored path="$PROJECT_DIR$/../newcoder/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,16 +18,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Exchange2.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../newcoder/src/Exchange2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Board.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../newcoder/src/Board.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -108,11 +98,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FindPair.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FindPair.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../newcoder/src/FindPair.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="38">
               <caret line="2" column="2" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Converter.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../newcoder/src/Converter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19">
+              <caret line="1" column="3" lean-forward="true" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -129,7 +129,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>maxl</find>
       <find>机器人</find>
       <find>魔术</find>
       <find>魔术索引</find>
@@ -159,6 +158,7 @@
       <find>最大连续数列</find>
       <find>词频统计</find>
       <find>整数对查找</find>
+      <find>树转链表</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -175,7 +175,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../newcoder/src/Balance.java" />
         <option value="$PROJECT_DIR$/../newcoder/src/Path.java" />
         <option value="$PROJECT_DIR$/../newcoder/src/MinimalBST.java" />
         <option value="$PROJECT_DIR$/../newcoder/src/TreeLevel.java" />
@@ -226,6 +225,7 @@
         <option value="$PROJECT_DIR$/../newcoder/src/MaxSum.java" />
         <option value="$PROJECT_DIR$/../newcoder/src/Frequency.java" />
         <option value="$PROJECT_DIR$/../newcoder/src/FindPair.java" />
+        <option value="$PROJECT_DIR$/../newcoder/src/Converter.java" />
       </list>
     </option>
   </component>
@@ -522,14 +522,7 @@
       <workItem from="1526373736004" duration="7792000" />
       <workItem from="1526907712100" duration="3057000" />
       <workItem from="1528266828895" duration="43939000" />
-      <workItem from="1528545392401" duration="75731000" />
-    </task>
-    <task id="LOCAL-00123" summary="寻找下一个节点（树）">
-      <created>1529324183825</created>
-      <option name="number" value="00123" />
-      <option name="presentableId" value="LOCAL-00123" />
-      <option name="project" value="LOCAL" />
-      <updated>1529324183825</updated>
+      <workItem from="1528545392401" duration="75803000" />
     </task>
     <task id="LOCAL-00124" summary=" 二叉树中和为某一值的路径（树）">
       <created>1529325205865</created>
@@ -867,11 +860,18 @@
       <option name="project" value="LOCAL" />
       <updated>1529481211333</updated>
     </task>
-    <option name="localTasksCounter" value="172" />
+    <task id="LOCAL-00172" summary=" 整数对查找（编程基础）">
+      <created>1529481334564</created>
+      <option name="number" value="00172" />
+      <option name="presentableId" value="LOCAL-00172" />
+      <option name="project" value="LOCAL" />
+      <updated>1529481334564</updated>
+    </task>
+    <option name="localTasksCounter" value="173" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="273918000" />
+    <option name="totallyTimeSpent" value="273990000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1974" y="-8" width="1874" height="1096" extended-state="6" />
@@ -914,7 +914,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value=" 集合的子集（二进制）" />
     <MESSAGE value=" 合法括号序列判断（普通判断）" />
     <MESSAGE value=" 洪水（泛洪算法）" />
     <MESSAGE value=" 硬币表示（递归、动态规划）" />
@@ -939,7 +938,8 @@
     <MESSAGE value="数字发音（编程基础）" />
     <MESSAGE value="最大连续数列和（编程基础）" />
     <MESSAGE value="词频统计（编程基础）" />
-    <option name="LAST_COMMIT_MESSAGE" value="词频统计（编程基础）" />
+    <MESSAGE value=" 整数对查找（编程基础）" />
+    <option name="LAST_COMMIT_MESSAGE" value=" 整数对查找（编程基础）" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -948,14 +948,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../newcoder/src/Balance.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="20" column="61" lean-forward="true" selection-start-line="20" selection-start-column="61" selection-end-line="20" selection-end-column="61" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../newcoder/src/Path.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -1352,6 +1344,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
           <caret line="2" column="2" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../newcoder/src/Converter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="3" lean-forward="true" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="11" />
           <folding />
         </state>
       </provider>
