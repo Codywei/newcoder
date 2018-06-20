@@ -1,5 +1,5 @@
 /**
- 魔术索引II
+ 魔术索引II（递归、动态规划）
 
  在数组A[0..n-1]中，有所谓的魔术索引，满足条件A[i]=i。
 
@@ -12,7 +12,7 @@
 
 public class MagicIndex2 {
     public  static boolean findMagicIndex2(int[] A, int n) {
-        // write code here
+
         if(A==null||A.length<n||n<0) {
             return false;
         }
