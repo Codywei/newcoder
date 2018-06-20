@@ -1,5 +1,5 @@
 /**
- point 节点类
+ Point 节点类
  * */
 public class Point {
     int x;
