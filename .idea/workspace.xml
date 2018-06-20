@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f671b6a7-e9bd-4688-8a0d-0bcf726622cf" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../newcoder/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../newcoder/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../newcoder/src/Distance.java" afterPath="$PROJECT_DIR$/../newcoder/src/Distance.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../newcoder/src/LongestString.java" afterPath="$PROJECT_DIR$/../newcoder/src/LongestString.java" />
     </list>
     <ignored path="$PROJECT_DIR$/../newcoder/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -99,7 +98,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Distance.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Distance.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../newcoder/src/Distance.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="38">
@@ -109,11 +108,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UnusualAdd.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../newcoder/src/UnusualAdd.java">
+      <file leaf-file-name="LongestString.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../newcoder/src/LongestString.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="21" lean-forward="true" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+            <state relative-caret-position="38">
+              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -130,7 +129,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>上楼梯（递归、动态规划）</find>
       <find>字符串排列</find>
       <find>合法</find>
       <find>洪水</find>
@@ -160,6 +158,7 @@
       <find>2的</find>
       <find>下一</find>
       <find>单词最近</find>
+      <find>最长合成</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -176,7 +175,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../newcoder/src/Solution3.java" />
         <option value="$PROJECT_DIR$/../newcoder/src/BinInsert.java" />
         <option value="$PROJECT_DIR$/../newcoder/src/BinDecimal.java" />
         <option value="$PROJECT_DIR$/../newcoder/src/CloseNumber.java" />
@@ -227,6 +225,7 @@
         <option value="$PROJECT_DIR$/../newcoder/src/NextElement.java" />
         <option value="$PROJECT_DIR$/../newcoder/src/NextElement2.java" />
         <option value="$PROJECT_DIR$/../newcoder/src/Distance.java" />
+        <option value="$PROJECT_DIR$/../newcoder/src/LongestString.java" />
       </list>
     </option>
   </component>
@@ -523,14 +522,7 @@
       <workItem from="1526373736004" duration="7792000" />
       <workItem from="1526907712100" duration="3057000" />
       <workItem from="1528266828895" duration="43939000" />
-      <workItem from="1528545392401" duration="76939000" />
-    </task>
-    <task id="LOCAL-00130" summary=" 找出缺失的整数（编程基础）">
-      <created>1529326462712</created>
-      <option name="number" value="00130" />
-      <option name="presentableId" value="LOCAL-00130" />
-      <option name="project" value="LOCAL" />
-      <updated>1529326462712</updated>
+      <workItem from="1528545392401" duration="77080000" />
     </task>
     <task id="LOCAL-00131" summary=" 像素设定（编程基础）">
       <created>1529326902023</created>
@@ -868,11 +860,18 @@
       <option name="project" value="LOCAL" />
       <updated>1529482269164</updated>
     </task>
-    <option name="localTasksCounter" value="179" />
+    <task id="LOCAL-00179" summary=" 单词最近距离（编程基础）">
+      <created>1529482547901</created>
+      <option name="number" value="00179" />
+      <option name="presentableId" value="LOCAL-00179" />
+      <option name="project" value="LOCAL" />
+      <updated>1529482547901</updated>
+    </task>
+    <option name="localTasksCounter" value="180" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="275126000" />
+    <option name="totallyTimeSpent" value="275267000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1974" y="-8" width="1874" height="1096" extended-state="6" />
@@ -915,7 +914,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value=" 约瑟夫问题II(链表)" />
     <MESSAGE value=" 变位词排序（排序、查找）" />
     <MESSAGE value=" 元素查找（二分排序）" />
     <MESSAGE value=" 找出字符串（二分查找）" />
@@ -940,7 +938,8 @@
     <MESSAGE value=" 2的个数（编程基础）" />
     <MESSAGE value=" 下一个较大元素(编程基础)" />
     <MESSAGE value=" 下一个较大元素II(编程基础)" />
-    <option name="LAST_COMMIT_MESSAGE" value=" 下一个较大元素II(编程基础)" />
+    <MESSAGE value=" 单词最近距离（编程基础）" />
+    <option name="LAST_COMMIT_MESSAGE" value=" 单词最近距离（编程基础）" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -949,14 +948,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../newcoder/src/Solution3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../newcoder/src/BinInsert.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
@@ -1353,6 +1344,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
           <caret line="2" column="4" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../newcoder/src/LongestString.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="19" />
           <folding />
         </state>
       </provider>
