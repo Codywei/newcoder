@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f671b6a7-e9bd-4688-8a0d-0bcf726622cf" name="Default" comment=" 洪水（泛洪算法）">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../newcoder/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../newcoder/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../newcoder/src/Coins.java" afterPath="$PROJECT_DIR$/../newcoder/src/Coins.java" />
+    <list default="true" id="f671b6a7-e9bd-4688-8a0d-0bcf726622cf" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../newcoder/src/Queens.java" afterPath="$PROJECT_DIR$/../newcoder/src/Queens.java" />
     </list>
     <ignored path="$PROJECT_DIR$/../newcoder/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,16 +23,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="57">
               <caret line="4" column="9" lean-forward="false" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GoUpstairs.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../newcoder/src/GoUpstairs.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-12">
-              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -109,11 +98,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Coins.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Coins.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../newcoder/src/Coins.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="19">
               <caret line="1" column="14" lean-forward="false" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Queens.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../newcoder/src/Queens.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19">
+              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -130,7 +129,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>有向路径</find>
       <find>高度最小</find>
       <find>输出单</find>
       <find>检查</find>
@@ -160,6 +158,7 @@
       <find>合法</find>
       <find>洪水</find>
       <find>硬币</find>
+      <find>n皇后</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -176,7 +175,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../newcoder/src/AlphaMatrix.java" />
         <option value="$PROJECT_DIR$/../newcoder/src/Different.java" />
         <option value="$PROJECT_DIR$/../newcoder/src/Reverse.java" />
         <option value="$PROJECT_DIR$/../newcoder/src/Same.java" />
@@ -227,6 +225,7 @@
         <option value="$PROJECT_DIR$/../newcoder/src/Parenthesis.java" />
         <option value="$PROJECT_DIR$/../newcoder/src/Flood.java" />
         <option value="$PROJECT_DIR$/../newcoder/src/Coins.java" />
+        <option value="$PROJECT_DIR$/../newcoder/src/Queens.java" />
       </list>
     </option>
   </component>
@@ -523,14 +522,7 @@
       <workItem from="1526373736004" duration="7792000" />
       <workItem from="1526907712100" duration="3057000" />
       <workItem from="1528266828895" duration="43939000" />
-      <workItem from="1528545392401" duration="69890000" />
-    </task>
-    <task id="LOCAL-00100" summary=" 原串翻转（编程基础，字符串）">
-      <created>1529300352463</created>
-      <option name="number" value="00100" />
-      <option name="presentableId" value="LOCAL-00100" />
-      <option name="project" value="LOCAL" />
-      <updated>1529300352463</updated>
+      <workItem from="1528545392401" duration="70043000" />
     </task>
     <task id="LOCAL-00101" summary=" 确定两个字符串乱序同构（字符串）">
       <created>1529300618636</created>
@@ -868,11 +860,18 @@
       <option name="project" value="LOCAL" />
       <updated>1529461995166</updated>
     </task>
-    <option name="localTasksCounter" value="149" />
+    <task id="LOCAL-00149" summary=" 硬币表示（递归、动态规划）">
+      <created>1529462121662</created>
+      <option name="number" value="00149" />
+      <option name="presentableId" value="LOCAL-00149" />
+      <option name="project" value="LOCAL" />
+      <updated>1529462121662</updated>
+    </task>
+    <option name="localTasksCounter" value="150" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="268077000" />
+    <option name="totallyTimeSpent" value="268230000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1974" y="-8" width="1874" height="1096" extended-state="6" />
@@ -915,7 +914,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="寻找下一个节点（树）" />
     <MESSAGE value=" 二叉树中和为某一值的路径（树）" />
     <MESSAGE value="二进制插入（编程基础）" />
     <MESSAGE value=" 二进制小数（编程基础）" />
@@ -940,7 +938,8 @@
     <MESSAGE value=" 集合的子集（二进制）" />
     <MESSAGE value=" 合法括号序列判断（普通判断）" />
     <MESSAGE value=" 洪水（泛洪算法）" />
-    <option name="LAST_COMMIT_MESSAGE" value=" 洪水（泛洪算法）" />
+    <MESSAGE value=" 硬币表示（递归、动态规划）" />
+    <option name="LAST_COMMIT_MESSAGE" value=" 硬币表示（递归、动态规划）" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -949,120 +948,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="uml://JAVA/">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement />
-          <nodes>
-            <node x="" y="">Rearrange</node>
-            <node x="" y="">Reverse</node>
-            <node x="" y="">Coins</node>
-            <node x="" y="">Render</node>
-            <node x="" y="">Subet</node>
-            <node x="" y="">Remove</node>
-            <node x="" y="">Different</node>
-            <node x="" y="">FindPair</node>
-            <node x="" y="">TwoStacks</node>
-            <node x="" y="">java</node>
-            <node x="" y="">Board</node>
-            <node x="" y="">Joseph2</node>
-            <node x="" y="">Converter</node>
-            <node x="" y="">javafx</node>
-            <node x="" y="">Distance</node>
-            <node x="" y="">Robot2</node>
-            <node x="" y="">SortString</node>
-            <node x="" y="">TreeLevel</node>
-            <node x="" y="">Permutation</node>
-            <node x="" y="">Finder</node>
-            <node x="" y="">SubMatrix</node>
-            <node x="" y="">META-INF</node>
-            <node x="" y="">Exchange</node>
-            <node x="" y="">CatDogAsylum</node>
-            <node x="" y="">Joseph</node>
-            <node x="" y="">AlphaMatrix</node>
-            <node x="" y="">netscape</node>
-            <node x="" y="">BinInsert</node>
-            <node x="" y="">Max</node>
-            <node x="" y="">Exchange2</node>
-            <node x="" y="">sun</node>
-            <node x="" y="">Substr</node>
-            <node x="" y="">Parenthesis</node>
-            <node x="" y="">UndirectedGraphNode</node>
-            <node x="" y="">Solution</node>
-            <node x="" y="">Path</node>
-            <node x="" y="">LongestString</node>
-            <node x="" y="">Rank</node>
-            <node x="" y="">jdk</node>
-            <node x="" y="">DenseLine</node>
-            <node x="" y="">MagicIndex</node>
-            <node x="" y="">Queens</node>
-            <node x="" y="">KthNumber</node>
-            <node x="" y="">Frequency</node>
-            <node x="" y="">ToString</node>
-            <node x="" y="">Transform</node>
-            <node x="" y="">CloseNumber</node>
-            <node x="" y="">com</node>
-            <node x="" y="">Count2</node>
-            <node x="" y="">Transform2</node>
-            <node x="" y="">SetOfStacks</node>
-            <node x="" y="">NextElement</node>
-            <node x="" y="">CrossLine</node>
-            <node x="" y="">BinDecimal</node>
-            <node x="" y="">AddSubstitution</node>
-            <node x="" y="">Result</node>
-            <node x="" y="">Ants</node>
-            <node x="" y="">MaxSum</node>
-            <node x="" y="">Solution3</node>
-            <node x="" y="">javax</node>
-            <node x="" y="">TreeNode</node>
-            <node x="" y="">Factor</node>
-            <node x="" y="">Solution2</node>
-            <node x="" y="">GoUpstairs</node>
-            <node x="" y="">ReverseEqual</node>
-            <node x="" y="">Plus</node>
-            <node x="" y="">Same</node>
-            <node x="" y="">oracle</node>
-            <node x="" y="">Palindrome</node>
-            <node x="" y="">UnusualAdd</node>
-            <node x="" y="">Box</node>
-            <node x="" y="">LCA</node>
-            <node x="" y="">Bipartition</node>
-            <node x="" y="">Stack</node>
-            <node x="" y="">Balance</node>
-            <node x="" y="">AntiOrder</node>
-            <node x="" y="">NextElement2</node>
-            <node x="" y="">Successor</node>
-            <node x="" y="">Clearer</node>
-            <node x="" y="">Flood</node>
-            <node x="" y="">MagicIndex2</node>
-            <node x="" y="">Partition</node>
-            <node x="" y="">Checker</node>
-            <node x="" y="">MinimalBST</node>
-            <node x="" y="">org</node>
-            <node x="" y="">Replacement</node>
-            <node x="" y="">Point</node>
-            <node x="" y="">Change</node>
-            <node x="" y="">ListNode</node>
-            <node x="" y="">Zipper</node>
-            <node x="" y="">Middle</node>
-            <node x="" y="">Finder4</node>
-            <node x="" y="">Finder2</node>
-            <node x="" y="">Finder3</node>
-            <node x="" y="">SubMatrix2</node>
-            <node x="" y="">Stack2</node>
-            <node x="" y="">Robot</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="0.7082926829268292" x="538.5" y="502.5" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../newcoder/src/Different.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="7">
@@ -1467,6 +1352,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
           <caret line="1" column="14" lean-forward="false" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../newcoder/src/Queens.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="14" />
           <folding />
         </state>
       </provider>
