@@ -1,5 +1,5 @@
 /**
- 2的个数
+ 2的个数（编程基础）
 
  请编写一个方法，输出0到n(包括n)中数字2出现了几次。
 
@@ -13,7 +13,7 @@
  如果等 X，则取第 i 位右边（低位）数字，设为 b，最后结果为 a+b+1。
  * */
 public class Count2 {
-    public static int countNumberOf2s(int n) {
+    public int countNumberOf2s(int n) {
         // write code here
         int count = 0;
         for (int i = 1; i <= n; i *= 10) {
