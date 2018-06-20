@@ -1,5 +1,4 @@
 import java.util.ArrayList;
-
 /**
  无向图节点类
  * */
