@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f671b6a7-e9bd-4688-8a0d-0bcf726622cf" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../newcoder/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../newcoder/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../newcoder/src/Finder3.java" afterPath="$PROJECT_DIR$/../newcoder/src/Finder3.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../newcoder/src/Finder2.java" afterPath="$PROJECT_DIR$/../newcoder/src/Finder2.java" />
     </list>
     <ignored path="$PROJECT_DIR$/../newcoder/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -49,11 +48,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Finder2.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Finder2.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../newcoder/src/Finder2.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="19">
-              <caret line="1" column="3" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="11" />
+              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -69,7 +68,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Finder3.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Finder3.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../newcoder/src/Finder3.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="19">
@@ -225,8 +224,8 @@
         <option value="$PROJECT_DIR$/../newcoder/src/Joseph.java" />
         <option value="$PROJECT_DIR$/../newcoder/src/Joseph2.java" />
         <option value="$PROJECT_DIR$/../newcoder/src/SortString.java" />
-        <option value="$PROJECT_DIR$/../newcoder/src/Finder2.java" />
         <option value="$PROJECT_DIR$/../newcoder/src/Finder3.java" />
+        <option value="$PROJECT_DIR$/../newcoder/src/Finder2.java" />
       </list>
     </option>
   </component>
@@ -523,14 +522,7 @@
       <workItem from="1526373736004" duration="7792000" />
       <workItem from="1526907712100" duration="3057000" />
       <workItem from="1528266828895" duration="43939000" />
-      <workItem from="1528545392401" duration="71123000" />
-    </task>
-    <task id="LOCAL-00106" summary=" 翻转子串（编程基础、字符串）">
-      <created>1529302584815</created>
-      <option name="number" value="00106" />
-      <option name="presentableId" value="LOCAL-00106" />
-      <option name="project" value="LOCAL" />
-      <updated>1529302584815</updated>
+      <workItem from="1528545392401" duration="71157000" />
     </task>
     <task id="LOCAL-00107" summary="单链表节点类">
       <created>1529302819288</created>
@@ -868,11 +860,18 @@
       <option name="project" value="LOCAL" />
       <updated>1529463172867</updated>
     </task>
-    <option name="localTasksCounter" value="155" />
+    <task id="LOCAL-00155" summary=" 找出字符串（二分查找）">
+      <created>1529463362365</created>
+      <option name="number" value="00155" />
+      <option name="presentableId" value="LOCAL-00155" />
+      <option name="project" value="LOCAL" />
+      <updated>1529463362366</updated>
+    </task>
+    <option name="localTasksCounter" value="156" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="269310000" />
+    <option name="totallyTimeSpent" value="269344000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1974" y="-8" width="1874" height="1096" extended-state="6" />
@@ -915,7 +914,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value=" 奇偶位交换（编程基础）" />
     <MESSAGE value=" 找出缺失的整数（编程基础）" />
     <MESSAGE value=" 像素设定（编程基础）" />
     <MESSAGE value=" 碰撞的蚂蚁（数学基础）" />
@@ -940,7 +938,8 @@
     <MESSAGE value=" 约瑟夫问题II(链表)" />
     <MESSAGE value=" 变位词排序（排序、查找）" />
     <MESSAGE value=" 元素查找（二分排序）" />
-    <option name="LAST_COMMIT_MESSAGE" value=" 元素查找（二分排序）" />
+    <MESSAGE value=" 找出字符串（二分查找）" />
+    <option name="LAST_COMMIT_MESSAGE" value=" 找出字符串（二分查找）" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1346,18 +1345,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../newcoder/src/Finder2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="3" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../newcoder/src/Finder3.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
           <caret line="1" column="3" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../newcoder/src/Finder2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="11" />
           <folding />
         </state>
       </provider>
