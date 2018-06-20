@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f671b6a7-e9bd-4688-8a0d-0bcf726622cf" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../newcoder/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../newcoder/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../newcoder/src/Permutation.java" afterPath="$PROJECT_DIR$/../newcoder/src/Permutation.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../newcoder/src/Subet.java" afterPath="$PROJECT_DIR$/../newcoder/src/Subet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../newcoder/src/Parenthesis.java" afterPath="$PROJECT_DIR$/../newcoder/src/Parenthesis.java" />
     </list>
     <ignored path="$PROJECT_DIR$/../newcoder/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -100,21 +99,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Subet.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Subet.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../newcoder/src/Subet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="11" />
+            <state relative-caret-position="19">
+              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="KthNumber.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../newcoder/src/KthNumber.java">
+      <file leaf-file-name="Parenthesis.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../newcoder/src/Parenthesis.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="19">
-              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="11" />
+              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -131,7 +130,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>双</find>
       <find>猫狗收容所</find>
       <find>二叉树</find>
       <find>有向路径</find>
@@ -161,6 +159,7 @@
       <find>集合</find>
       <find>上楼梯（递归、动态规划）</find>
       <find>字符串排列</find>
+      <find>合法</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -177,7 +176,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../newcoder/src/Change.java" />
         <option value="$PROJECT_DIR$/../newcoder/src/SubMatrix.java" />
         <option value="$PROJECT_DIR$/../newcoder/src/SubMatrix2.java" />
         <option value="$PROJECT_DIR$/../newcoder/src/AlphaMatrix.java" />
@@ -228,6 +226,7 @@
         <option value="$PROJECT_DIR$/../newcoder/src/MagicIndex2.java" />
         <option value="$PROJECT_DIR$/../newcoder/src/Subet.java" />
         <option value="$PROJECT_DIR$/../newcoder/src/Permutation.java" />
+        <option value="$PROJECT_DIR$/../newcoder/src/Parenthesis.java" />
       </list>
     </option>
   </component>
@@ -524,14 +523,7 @@
       <workItem from="1526373736004" duration="7792000" />
       <workItem from="1526907712100" duration="3057000" />
       <workItem from="1528266828895" duration="43939000" />
-      <workItem from="1528545392401" duration="68569000" />
-    </task>
-    <task id="LOCAL-00097" summary="最大字母矩阵">
-      <created>1528900196075</created>
-      <option name="number" value="00097" />
-      <option name="presentableId" value="LOCAL-00097" />
-      <option name="project" value="LOCAL" />
-      <updated>1528900196075</updated>
+      <workItem from="1528545392401" duration="69592000" />
     </task>
     <task id="LOCAL-00098" summary=" 确定字符互异（编程基础，字符串）">
       <created>1529288169896</created>
@@ -869,11 +861,18 @@
       <option name="project" value="LOCAL" />
       <updated>1529458808887</updated>
     </task>
-    <option name="localTasksCounter" value="146" />
+    <task id="LOCAL-00146" summary=" 集合的子集（二进制）">
+      <created>1529459286601</created>
+      <option name="number" value="00146" />
+      <option name="presentableId" value="LOCAL-00146" />
+      <option name="project" value="LOCAL" />
+      <updated>1529459286601</updated>
+    </task>
+    <option name="localTasksCounter" value="147" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="266756000" />
+    <option name="totallyTimeSpent" value="267779000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1974" y="-8" width="1874" height="1096" extended-state="6" />
@@ -916,7 +915,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value=" 高度最小的BST（树，高级结构）" />
     <MESSAGE value=" 输出单层节点（树）" />
     <MESSAGE value="检查是否为BST（树）" />
     <MESSAGE value="寻找下一个节点（树）" />
@@ -941,7 +939,8 @@
     <MESSAGE value="机器人走方格II（递归、动态规划）" />
     <MESSAGE value="魔术索引I（递归、动态规划）" />
     <MESSAGE value="魔术索引II（递归、动态规划）" />
-    <option name="LAST_COMMIT_MESSAGE" value="魔术索引II（递归、动态规划）" />
+    <MESSAGE value=" 集合的子集（二进制）" />
+    <option name="LAST_COMMIT_MESSAGE" value=" 集合的子集（二进制）" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -950,14 +949,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../newcoder/src/SubMatrix.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="51" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../newcoder/src/SubMatrix2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="437">
@@ -1466,8 +1457,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../newcoder/src/Subet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="11" />
+        <state relative-caret-position="19">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../newcoder/src/Parenthesis.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="15" />
           <folding />
         </state>
       </provider>
