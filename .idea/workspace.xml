@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f671b6a7-e9bd-4688-8a0d-0bcf726622cf" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../newcoder/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../newcoder/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../newcoder/src/Result.java" afterPath="$PROJECT_DIR$/../newcoder/src/Result.java" />
-    </list>
+    <list default="true" id="f671b6a7-e9bd-4688-8a0d-0bcf726622cf" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/../newcoder/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -523,14 +520,7 @@
       <workItem from="1526373736004" duration="7792000" />
       <workItem from="1526907712100" duration="3057000" />
       <workItem from="1528266828895" duration="43939000" />
-      <workItem from="1528545392401" duration="74838000" />
-    </task>
-    <task id="LOCAL-00116" summary="猫狗收容所（队列）">
-      <created>1529322248450</created>
-      <option name="number" value="00116" />
-      <option name="presentableId" value="LOCAL-00116" />
-      <option name="project" value="LOCAL" />
-      <updated>1529322248450</updated>
+      <workItem from="1528545392401" duration="74852000" />
     </task>
     <task id="LOCAL-00117" summary="树节点类">
       <created>1529322328923</created>
@@ -868,11 +858,18 @@
       <option name="project" value="LOCAL" />
       <updated>1529480226398</updated>
     </task>
-    <option name="localTasksCounter" value="165" />
+    <task id="LOCAL-00165" summary=" 珠玑妙算（编程基础）">
+      <created>1529480438864</created>
+      <option name="number" value="00165" />
+      <option name="presentableId" value="LOCAL-00165" />
+      <option name="project" value="LOCAL" />
+      <updated>1529480438864</updated>
+    </task>
+    <option name="localTasksCounter" value="166" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="273025000" />
+    <option name="totallyTimeSpent" value="273039000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1974" y="-8" width="1874" height="1096" extended-state="6" />
@@ -915,7 +912,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value=" 上楼梯（递归和动态规划）" />
     <MESSAGE value=" 上楼梯（递归、动态规划）" />
     <MESSAGE value="机器人走方格I（递归、动态规划）" />
     <MESSAGE value="机器人走方格II（递归、动态规划）" />
@@ -940,7 +936,8 @@
     <MESSAGE value="无缓存交换（编程基础）" />
     <MESSAGE value="井字棋（编程基础）" />
     <MESSAGE value="无判断max（编程基础）" />
-    <option name="LAST_COMMIT_MESSAGE" value="无判断max（编程基础）" />
+    <MESSAGE value=" 珠玑妙算（编程基础）" />
+    <option name="LAST_COMMIT_MESSAGE" value=" 珠玑妙算（编程基础）" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
